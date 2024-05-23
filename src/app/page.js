@@ -1,8 +1,11 @@
 
 import styles from "./page.module.css";
-
-export default function Home() {
+import { Home } from "../../sites";
+export default function Page() {
   return (
-    <></>
+    <>
+      <Home />
+    </>
   );
 }
+
