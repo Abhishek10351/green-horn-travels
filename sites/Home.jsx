@@ -1,4 +1,4 @@
-import PackageCard  from "../components/PackageCard";
+import PackageCard from "../components/PackageCard";
 import data from "../assets/packages.json";
 export function Home() {
     return (

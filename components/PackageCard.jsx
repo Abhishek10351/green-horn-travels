@@ -1,5 +1,6 @@
+// import "..style/PackageCard.css";
 import "./PackageCard.css";
-// import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export default function PackageCard({ ...props }) {
     return (
@@ -17,9 +18,12 @@ export default function PackageCard({ ...props }) {
                     <div className="abt">{props.info}</div>
                     <div className="price">{props.price}Rs</div>
                     <div className="go-btn">
-                        <a to={`/locations/${props.location}`}>
-                            <button className="gobtn">View plans</button>
-                        </a>
+                        <Link
+                            href={`/locations/${props.location}`}
+                            className="gobtn"
+                        >
+                            Book Now
+                        </Link>
                     </div>
                 </div>
             </div>

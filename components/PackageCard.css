@@ -67,6 +67,7 @@
     letter-spacing: 1px;
     padding: 0.5rem;
     -moz-appearance: none;
+    text-decoration: none;
 }
 .gobtn:hover {
     background-color: #37474f;
