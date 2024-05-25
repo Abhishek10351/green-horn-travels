@@ -43,12 +43,9 @@
 }
 .card .abt {
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
-.card .price {
-    margin: 0.5rem 0;
-    font-size: 0.8rem;
-    color: hsl(225, 10%, 46%);
-}
+
 .card .stars {
     font-size: 0.9rem;
     margin-top: 0.5rem;
@@ -57,6 +54,7 @@
     margin: 0.5rem 0;
     background-color: #92e3a9;
     font-family: "Urbanist", sans-serif;
+    color: inherit;
     font-weight: 800;
     -webkit-appearance: none;
     border: none;

@@ -1,4 +1,3 @@
-// import "..style/PackageCard.css";
 import "./PackageCard.css";
 import Link from "next/link";
 
@@ -12,11 +11,10 @@ export default function PackageCard({ ...props }) {
                 </div>
                 <div className="cont">
                     <div className="name">
-                        <i className="fas fa-map-marker-alt"></i>{" "}
+                        <i className="fa-solid fa-map-marker-alt"></i>{" "}
                         {props.placeName}
                     </div>
                     <div className="abt">{props.info}</div>
-                    <div className="price">{props.price}Rs</div>
                     <div className="go-btn">
                         <Link
                             href={`/locations/${props.location}`}
