@@ -1,10 +1,8 @@
-import PackageCard from "../components/PackageCard";
-import data from "../assets/data/packages.json";
-import about from "../assets/data/about-us.json";
+import PackageCard from "../components/PackageCard/PackageCard";
+import data from "../public/assets/data/packages.json";
 export function Home() {
     return (
         <>
-            <PackageCard {...data[0]} />
         </>
     );
 }

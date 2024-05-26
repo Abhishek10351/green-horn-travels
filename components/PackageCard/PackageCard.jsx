@@ -17,7 +17,7 @@ export default function PackageCard({ ...props }) {
                     <div className="abt">{props.info}</div>
                     <div className="go-btn">
                         <Link
-                            href={`/locations/${props.location}`}
+                            href={`https://wa.me/7002822793`}
                             className="gobtn"
                         >
                             Book Now
