@@ -1,7 +1,80 @@
-[{
-    "location":"Assam",
-    "placeName":"Guwahati",
-    "img":"https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
-    "info":"Immerse yourself in spirituality as you explore the ancient Kamakhya Temple, dedicated to the Goddess Kamakhya, and seek blessings at the Umananda Temple situated on Peacock Island amidst the Brahmaputra River. Take in panoramic views of the city and river with a scenic ride on the Guwahati ropeway."
-}
+[
+    {
+        "location": "Assam",
+        "placeName": "Guwahati",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Immerse yourself in spirituality as you explore the ancient Kamakhya Temple, dedicated to the Goddess Kamakhya, and seek blessings at the Umananda Temple situated on Peacock Island amidst the Brahmaputra River. Take in panoramic views of the city and river with a scenic ride on the Guwahati ropeway."
+    },
+    {
+        "location": "Assam",
+        "placeName": "Alfresco Grand",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Experience river cruising on the Brahmaputra River with Alfresco Grand, offering sunset and dinner cruises lasting 1-2 hours. Enjoy scenic river views, live music, cultural performances, and delicious buffet dinners. It's the perfect way to create lasting memories and experience Guwahati uniquely."
+    },
+    {
+        "location": "Assam",
+        "placeName": "Kaziranga National Park Tour",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Embark on an exhilarating wildlife safari in Kaziranga National Park, home to the world's largest population of one-horned rhinoceroses. Encounter diverse wildlife, including elephants, tigers, wild buffalo, and deer, as you traverse through the park's lush forests and grasslands."
+    },
+    {
+        "location": "Assam",
+        "placeName": "Manas National Park",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Delve into the wilderness of Manas National Park, a UNESCO World Heritage Site renowned for its diverse flora and fauna. Explore the park's pristine wilderness on thrilling jeep safaris or tranquil river cruises along the Manas River. Discover rare wildlife species, including the endangered golden langur and pygmy hog, amidst the park's verdant landscapes."
+    },
+    {
+        "location": "Meghalaya",
+        "placeName": "Shillong",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Immerse yourself in the charming ambiance of the hill station, known as the \"Scotland of the East.\" Explore its bustling markets, colonial architecture, and serene lakes, including Ward's Lake and Umiam Lake."
+    },
+    {
+        "location": "Meghalaya",
+        "placeName": "Cherrapunji",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Marvel at the breathtaking beauty of the rain-soaked landscapes of Cherrapunji, one of the wettest places on Earth. Witness the mesmerizing sight of cascading waterfalls like Nohkalikai Falls, Seven Sisters Falls, and Dainthlen Falls."
+    },
+    {
+        "location": "Meghalaya",
+        "placeName": "Dawki",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Embark on a mesmerizing boat ride along the crystal-clear waters of the Umngot River, known for its transparent waters that allow you to see the riverbed below. Experience the tranquility and serenity of this picturesque location surrounded by lush greenery."
+    },
+    {
+        "location": "Meghalaya",
+        "placeName": "Mawlynnong",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Discover the pristine beauty of Asia's cleanest village, Mawlynnong, nestled amidst the lush forests of Meghalaya. Wander through its narrow lanes lined with bamboo houses, visit the iconic living root bridges, and soak in the panoramic views of the surrounding landscapes from the Sky Walk viewpoint."
+    },
+    {
+        "location": "Arunachal Pradesh",
+        "placeName": "Tawang",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Delve into the rich history and spirituality of Arunachal Pradesh with a visit to the historic Tawang Monastery, one of the largest monasteries in India. Marvel at its stunning architecture, intricate murals, and ancient scriptures, while soaking in panoramic views of the surrounding mountains."
+    },
+    {
+        "location": "Arunachal Pradesh",
+        "placeName": "Sela Pass",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Embark on a breathtaking journey across the iconic Sela Pass, situated at an altitude of 13,700 feet above sea level. Traverse through rugged terrain and pristine landscapes, adorned with snow-capped peaks, glacial lakes, and vibrant alpine flora."
+    },
+    {
+        "location": "Arunachal Pradesh",
+        "placeName": "Bomdila",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Unwind in the serene town of Bomdila, nestled amidst the majestic Himalayas. Explore its tranquil monasteries, lush apple orchards, and vibrant markets, offering a glimpse into the rich cultural heritage of the region. Indulge in nature walks and soak in the panoramic vistas of the surrounding mountains."
+    },
+    {
+        "location": "Arunachal Pradesh",
+        "placeName": "Dirang",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Immerse yourself in the picturesque landscapes and vibrant culture of Dirang, a hidden gem in Arunachal Pradesh. Explore its verdant valleys, cascading waterfalls, and traditional villages, where you can interact with the local Monpa tribe and witness their age-old customs and traditions."
+    },
+    {
+        "location": "Arunachal Pradesh",
+        "placeName": "Bumla Pass",
+        "img": "https://images.unsplash.com/photo-1611336814186-914161b9bdb6?w=400&auto=format&fit=crop&q=60",
+        "info": "Journey to the historic Bumla Pass, located near the Indo-China border, and immerse yourself in its fascinating history and breathtaking vistas. Explore the remnants of the ancient trade route, used by traders and pilgrims for centuries, and pay homage to the brave soldiers who guard the nation's frontier."
+    }
 ]
