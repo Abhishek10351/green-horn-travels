@@ -1,13 +1,19 @@
 import "./PackageCard.css";
 import Link from "next/link";
-
+import Image from "next/image";
 export default function PackageCard({ ...props }) {
     return (
         <>
             <div className="card module">
                 <div className="img">
                     {" "}
-                    <img src={props.img} id="placeimg" alt={props.placeName} />
+                    <Image
+                        src="/public/assets/logo/logo.png"
+                        id="placeimg" 
+                        alt={props.placeName}
+                        width={400}
+                        height={300}
+                    />
                 </div>
                 <div className="cont">
                     <div className="name">
