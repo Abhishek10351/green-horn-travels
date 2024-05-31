@@ -2,7 +2,7 @@
 import "./Navbar.css";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/assets/logo/white-bg.png";
+import logo from "../../public/assets/logo/logo1.png";
 
 const Navbar = () => {
     // useEffect(() => {
@@ -39,7 +39,7 @@ const Navbar = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/book" id="d">
+                    <Link href="/about" id="d">
                         About Us
                     </Link>
                 </li>
