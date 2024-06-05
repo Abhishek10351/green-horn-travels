@@ -2,7 +2,6 @@ import "./Footer.css";
 import Image from "next/image";
 
 const Footer = () => {
-
     return (
         <footer className="footer">
             <div className="footer-container">
@@ -47,7 +46,7 @@ const Footer = () => {
                         style={{ border: 0 }}
                         allowFullScreen=""
                         loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
                 <div className="footer-social">
