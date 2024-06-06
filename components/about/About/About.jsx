@@ -2,6 +2,7 @@
 "use client"
 import "./About.css";
 import Footer from "../../globals/Footer/Footer";
+import Address from "../Address/Address";
 // import images
 import meghalaya from "../../../public/assets/about-page-images/meghalaya.jpg";
 import kaziranga from "../../../public/assets/about-page-images/kaziranga.jpg";
@@ -83,16 +84,9 @@ const AboutComponent = () => {
             journey is a story waiting to be told!
           </p>
         </div>
+        <Address />
 
-        <div className="office-address">
-          <h2>Our Office address</h2>
-          <p>Lichubagan, Hengrabari, Guwahati, Assam Pin Code - 781036</p>
-          <h2 className="contact-details">Contact Details</h2>
-          <p>
-            Phone No: +91-7002822793 <br />
-            Mail: greenhorntravelsguwahati@gmail.com
-          </p>
-        </div>
+        {/* Address */}
       </div>
       <Footer />
     </>

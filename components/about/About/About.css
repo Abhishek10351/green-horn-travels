@@ -40,17 +40,7 @@
     color: rgb(185, 0, 0);
     font-size: 17.3px;
   }
-  .office-address{
-    display: flex;
-    flex-direction: column;
-    margin: 10rem 21rem;
-    border-radius: 10px;
-    width: 40rem;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  }
-  .office-address p{
-    font-size: 20px;
-  }
+  
   @keyframes fadeIn {
     from {
         opacity: 0;
@@ -95,7 +85,7 @@
   font-style: italic;
   font-family: 'Merriweather',serif;
 }
-.about-h1, .about-p, .office-address {
+.about-h1, .about-p {
   margin-bottom: 20px;
 }
 .about-meghalaya img,
@@ -121,9 +111,7 @@
 .about-tawang:nth-child(even) {
   flex-direction: row-reverse;
 }
-.office-address h2 {
-  margin-top: 20px;
-}
+
 
 #text-two{
   display: flex;
