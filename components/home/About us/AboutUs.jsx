@@ -1,4 +1,6 @@
 import "./AboutUs.css";
+import Image from "next/image"; 
+
 
 const AboutUs = () => {
     return (
@@ -32,9 +34,11 @@ const AboutUs = () => {
                     </p>
                 </div>
                 <div className="about-illustration">
-                    <img
-                        src="public/assets/illustrations/travel-concept2.png"
+                    <Image
+                        src="/public/assets/illustrations/travel-concept.png"
                         alt="Illustration"
+                        width={500}
+                        height={500}
                     />
                 </div>
             </section>
