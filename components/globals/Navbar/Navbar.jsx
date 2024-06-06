@@ -2,24 +2,19 @@
 import "./Navbar.css";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/assets/logo/logo1.png";
+import logo from "../../../public/assets/logo/logo1.png";
 
 const Navbar = () => {
+    const handleScroll = () => {
+        const navbar = document.querySelector('nav');
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      };
     // useEffect(() => {
-    //   const handleScroll = () => {
-    //     const navbar = document.querySelector('nav');
-    //     if (window.scrollY > 50) {
-    //       navbar.classList.add('scrolled');
-    //     } else {
-    //       navbar.classList.remove('scrolled');
-    //     }
-    //   };
-
     //   window.addEventListener('scroll', handleScroll);
-
-    //   return () => {
-    //     window.removeEventListener('scroll', handleScroll);
-    //   };
     // }, []);
 
     return (
