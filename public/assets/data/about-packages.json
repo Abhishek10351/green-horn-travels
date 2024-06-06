@@ -1,0 +1,20 @@
+[
+    {
+        "location": "Meghalaya",
+        "img":"meghalaya.jpg",
+        "text":"Whether you're seeking the tranquility of Meghalaya's lush landscapes",
+        "className":"about-meghalaya"
+    },
+    {
+        "location":"Kaziranga",
+        "img":"kaziranga.jpg",
+        "text":"The thrill of wildlife encounters in Kaziranga National Park",
+        "className":"about-kaziranga"
+    },
+    {
+        "location":"Tawang",
+        "img":"tawang.jpg",
+        "text":"or the spiritual solace of Tawang's ancient monasteries, we have the perfect itinerary for you",
+        "className":"about-tawang"
+    }
+]
