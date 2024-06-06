@@ -4,11 +4,9 @@ import "./About.css";
 import Footer from "../../globals/Footer/Footer";
 import Address from "../Address/Address";
 // image observer
-import travelboy from "../../../public/assets/illustrations/travelboy.png";
 import Image from "next/image";
 import data from "../../../public/assets/data/about-packages.json";
 import LocationDiscoveryCard from "../Discovery/Discovery";
-
 
 const AboutComponent = () => {
     return (
@@ -40,7 +38,12 @@ const AboutComponent = () => {
                         tours and activities, we take care of every detail so
                         you can focus on enjoying your journey to the fullest.
                     </p>
-                    <img src={travelboy} alt="" />
+                    <Image
+                        src={"/public/assets/illustrations/travelboy.png"}
+                        alt="travelboy"
+                        width={500}
+                        height={500}
+                    />
                 </div>
                 <div className="text-three" id="text-three">
                     <p>
@@ -57,8 +60,6 @@ const AboutComponent = () => {
                     </p>
                 </div>
                 <Address />
-
-                {/* Address */}
             </div>
             <Footer />
         </>
