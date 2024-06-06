@@ -33,7 +33,7 @@ const AboutUs = () => {
                 </div>
                 <div className="about-illustration">
                     <img
-                        src="src/assets/illustrations/travel-concept2.png"
+                        src="public/assets/illustrations/travel-concept2.png"
                         alt="Illustration"
                     />
                 </div>
