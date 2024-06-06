@@ -8,7 +8,7 @@ export default function PackageCard({ ...props }) {
                 <div className="img">
                     {" "}
                     <Image
-                        src="/public/assets/logo/logo.png"
+                        src={ "/public/assets/locations/"+props.img}
                         id="placeimg" 
                         alt={props.placeName}
                         width={400}
