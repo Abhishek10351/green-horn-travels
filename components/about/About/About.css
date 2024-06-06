@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:justify; */
-  background-color: rgb(242, 247, 252);
+    background-color: rgb(242, 247, 252);
 
     display: block;
     flex-direction: column;
@@ -15,19 +15,21 @@
     margin: 0 auto;
     /* margin-top: 40px; */
     /* padding: 20px; */
-  }
-  
-  /* Style for the heading */
-  .about-h1 {
+}
+
+/* Style for the heading */
+.about-h1 {
     /* background-color: rgb(0, 165, 0); */
     font-size: 4rem;
     font-weight: 700;
     color: #333;
     margin-top: 12rem;
-  }
-  
-  /* Style for the paragraph */
-  .about-p, .text-two, .text-three {
+}
+
+/* Style for the paragraph */
+.about-p,
+.text-two,
+.text-three {
     /* border: 2px solid green; */
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -35,13 +37,13 @@
     color: #080808;
     line-height: 1.8;
     margin: 4rem 10rem;
-  }
-  span{
+}
+span {
     color: rgb(185, 0, 0);
     font-size: 17.3px;
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
@@ -55,89 +57,37 @@
     font-size: 24px;
     font-weight: bold;
 }
-/* images part */
 
-.about-meghalaya,
-.about-kaziranga,
-.about-tawang {
-  display: flex;
-  align-items: center;
-  margin-bottom: 100px;
-  margin: 120px 50px;
-  opacity: 0;
-  transform: translateX(100px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
 /* Additional CSS for your about page */
 .container {
-  padding: 0px;
-}
-.about-meghalaya p,
-.about-kaziranga p,
-.about-tawang p {
-  flex: 1;
-  margin: 0 20px;
-  font-size: 2.45rem;
-  font-style: italic;
-  font-family: 'Merriweather',serif;
-}
-.about-h1, .about-p {
-  margin-bottom: 20px;
-}
-.about-meghalaya img,
-.about-kaziranga img,
-.about-tawang img {
-  flex: 1;
-  max-width: 25%;
-  height: 20rem;
-  border: 10px solid rgb(255, 255, 255);
-  border-spacing: 10rem;
-  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.363);
-  border-radius: 5px;
+    padding: 0px;
 }
 
-.about-meghalaya:nth-child(even) {
-  flex-direction: row-reverse;
+.about-h1,
+.about-p {
+    margin-bottom: 20px;
 }
 
-.about-kaziranga:nth-child(even) {
-  flex-direction: row-reverse;
+#text-two {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1rem 0.9rem;
+    margin: 8rem 1.5rem;
 }
-
-.about-tawang:nth-child(even) {
-  flex-direction: row-reverse;
+#text-two img {
+    height: auto;
+    max-width: 30%;
 }
-
-
-#text-two{
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  padding: 1rem 0.9rem;
-  margin: 8rem 1.5rem;
-  
+#text-two p {
+    height: auto;
 }
-#text-two img{
-  height: auto;
-  max-width: 30%;
-  
+#text-three p {
+    padding: 1rem 0.9rem;
+    margin: 2rem 1rem;
 }
-#text-two p{
-  height: auto;
-  
-}
-#text-three p{
-  
-  padding: 1rem 0.9rem;
-  margin: 2rem 1rem;
-  
-}
-#slogan{
-  color: rgb(160, 15, 15);
-  font-size: larger;
-  font-weight: 700 ;
+#slogan {
+    color: rgb(160, 15, 15);
+    font-size: larger;
+    font-weight: 700;
 }

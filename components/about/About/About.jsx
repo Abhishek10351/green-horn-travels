@@ -4,32 +4,11 @@ import "./About.css";
 import Footer from "../../globals/Footer/Footer";
 import Address from "../Address/Address";
 // image observer
-import useIntersectionObserver from "../../../hooks/useIntersectionObserver";
 import travelboy from "../../../public/assets/illustrations/travelboy.png";
 import Image from "next/image";
 import data from "../../../public/assets/data/about-packages.json";
+import LocationDiscoveryCard from "../Discovery/Discovery";
 
-const AboutSection = ({ className, text, img, location }) => {
-    const [ref, isIntersecting] = useIntersectionObserver({
-        threshold: 0.1,
-    });
-  const img_dir = "/public/assets/about-page-images/";
-
-    return (
-        <div
-            ref={ref}
-            className={`${className} ${isIntersecting ? "visible" : ""}`}
-        >
-            <p>{text}</p>
-            <Image
-                src={img_dir + img}
-                alt={location}
-                width={500}
-                height={500}
-            />
-        </div>
-    );
-};
 
 const AboutComponent = () => {
     return (
@@ -50,7 +29,7 @@ const AboutComponent = () => {
                 </p>
 
                 {data.map((item, index) => (
-                    <AboutSection key={index} {...item} />
+                    <LocationDiscoveryCard key={index} {...item} />
                 ))}
                 <div className="text-two" id="text-two">
                     <p>
