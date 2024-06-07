@@ -1,5 +1,5 @@
 import "./about.css";
-import Address from "../../components/about/adress/Address";
+import Address from "../../components/about/address/Address";
 import Welcome from "../../components/about/welcome/Welcome";
 import DiscoverySection from "../../components/about/discovery/DiscoverySection";
 import Team from "../../components/about/team/Team";
