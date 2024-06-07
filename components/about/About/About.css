@@ -11,17 +11,6 @@
     padding: 0px;
 }
 
-/* Style for the paragraph */
-
-.text-two,
-.text-three {
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #080808;
-    line-height: 1.8;
-    margin: 4rem 10rem;
-}
 span {
     color: rgb(185, 0, 0);
     font-size: 17.3px;
@@ -42,26 +31,4 @@ span {
     font-weight: bold;
 }
 
-#text-two {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 1rem 0.9rem;
-    margin: 8rem 1.5rem;
-}
-#text-two img {
-    height: auto;
-    max-width: 30%;
-}
-#text-two p {
-    height: auto;
-}
-#text-three p {
-    padding: 1rem 0.9rem;
-    margin: 2rem 1rem;
-}
-#slogan {
-    color: rgb(160, 15, 15);
-    font-size: larger;
-    font-weight: 700;
-}
+

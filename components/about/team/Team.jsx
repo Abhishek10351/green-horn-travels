@@ -1,9 +1,9 @@
-
+import "./team.css";
 import Image from "next/image";
 
 export default function Team() {
     return (
-        <section className="text-two" id="text-two">
+        <section className="team" >
             <p>
                 Our team of experienced travel experts is dedicated to
                 crafting personalized travel experiences tailored to

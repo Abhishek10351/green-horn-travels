@@ -1,0 +1,18 @@
+.adventure {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #080808;
+    line-height: 1.8;
+    margin: 4rem 10rem;
+}
+.adventure p {
+    padding: 1rem 0.9rem;
+    margin: 2rem 1rem;
+}
+
+.adventure .slogan {
+    color: rgb(160, 15, 15);
+    font-size: larger;
+    font-weight: 700;
+}
