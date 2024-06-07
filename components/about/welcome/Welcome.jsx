@@ -2,7 +2,7 @@ import "./welcome.css";
 
 export default function Welcome() {
     return (
-        <section>
+        <section className="welcome">
             <h1 className="about-h1">About Us</h1>
             <p className="about-p">
                 Welcome to Green Horn Travels! At Green Horn Travels, we believe
