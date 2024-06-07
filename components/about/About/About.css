@@ -19,7 +19,6 @@
 
 /* Style for the heading */
 .about-h1 {
-    /* background-color: rgb(0, 165, 0); */
     font-size: 4rem;
     font-weight: 700;
     color: #333;
@@ -30,7 +29,6 @@
 .about-p,
 .text-two,
 .text-three {
-    /* border: 2px solid green; */
     font-family: "Inter", sans-serif;
     text-align: center;
     font-size: 1.4rem;

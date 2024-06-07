@@ -3,12 +3,10 @@
 import "./About.css";
 import Footer from "../../globals/Footer/Footer";
 import Address from "../Address/Address";
-// image observer
 import Image from "next/image";
-import data from "../../../public/assets/data/about-packages.json";
-import LocationDiscoveryCard from "../Discovery/Discovery";
 
-const AboutComponent = () => {
+import DiscoverySection from "../Discovery/DiscoverySection";
+export default function AboutComponent() {
     return (
         <>
             <div className="container">
@@ -26,9 +24,7 @@ const AboutComponent = () => {
                     and discovery.
                 </p>
 
-                {data.map((item, index) => (
-                    <LocationDiscoveryCard key={index} {...item} />
-                ))}
+                <DiscoverySection />
                 <div className="text-two" id="text-two">
                     <p>
                         Our team of experienced travel experts is dedicated to
@@ -65,5 +61,3 @@ const AboutComponent = () => {
         </>
     );
 };
-
-export default AboutComponent;
