@@ -1,9 +1,7 @@
-
-
 import data from "../../../public/assets/data/about-packages.json";
-import LocationDiscoveryCard from "../Discovery/Discovery";
+import LocationDiscoveryCard from "./Discovery";
 
-export default function DiscoverySection () {
+export default function DiscoverySection() {
     return (
         <section>
             {data.map((item, index) => (
@@ -11,4 +9,4 @@ export default function DiscoverySection () {
             ))}
         </section>
     );
-};
+}
