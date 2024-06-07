@@ -15,20 +15,3 @@ span {
     color: rgb(185, 0, 0);
     font-size: 17.3px;
 }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.animated-text {
-    animation: fadeIn 6s ease-in-out infinite;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
