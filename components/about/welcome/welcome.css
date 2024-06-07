@@ -1,0 +1,17 @@
+/* Style for the heading */
+.about-h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 12rem;
+}
+
+/* Style for the paragraph */
+.about-p{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #080808;
+    line-height: 1.8;
+    margin: 4rem 10rem;
+}
