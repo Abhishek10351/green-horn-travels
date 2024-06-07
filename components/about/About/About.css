@@ -1,43 +1,16 @@
 /* Style for the main container */
 
 .container {
-    /* background-image: url('./src/assets/illustrations/leaves.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:justify; */
     background-color: rgb(242, 247, 252);
-
     display: block;
     flex-direction: column;
     overflow-x: hidden;
     width: 100%;
     height: auto;
     margin: 0 auto;
-    /* margin-top: 40px; */
-    /* padding: 20px; */
+    padding: 0px;
 }
 
-/* Style for the heading */
-.about-h1 {
-    /* background-color: rgb(0, 165, 0); */
-    font-size: 4rem;
-    font-weight: 700;
-    color: #333;
-    margin-top: 12rem;
-}
-
-/* Style for the paragraph */
-.about-p,
-.text-two,
-.text-three {
-    /* border: 2px solid green; */
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #080808;
-    line-height: 1.8;
-    margin: 4rem 10rem;
-}
 span {
     color: rgb(185, 0, 0);
     font-size: 17.3px;
@@ -58,36 +31,4 @@ span {
     font-weight: bold;
 }
 
-/* Additional CSS for your about page */
-.container {
-    padding: 0px;
-}
 
-.about-h1,
-.about-p {
-    margin-bottom: 20px;
-}
-
-#text-two {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 1rem 0.9rem;
-    margin: 8rem 1.5rem;
-}
-#text-two img {
-    height: auto;
-    max-width: 30%;
-}
-#text-two p {
-    height: auto;
-}
-#text-three p {
-    padding: 1rem 0.9rem;
-    margin: 2rem 1rem;
-}
-#slogan {
-    color: rgb(160, 15, 15);
-    font-size: larger;
-    font-weight: 700;
-}
