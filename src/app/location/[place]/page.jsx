@@ -5,7 +5,7 @@ export default async function LocationPage({ params }) {
         "arunachal pradesh",
         "arunachal",
     ];
-    const place = params.place;
+    const place = params.place.lowercase();
     if (!supportedLocations.includes(place)) {
         return <h1>404 - Not Found</h1>;
     } else {
