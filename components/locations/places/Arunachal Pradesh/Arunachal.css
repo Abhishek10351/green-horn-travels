@@ -1,0 +1,26 @@
+.Arunachal-container {
+    padding: 5rem 2rem;
+    color: aliceblue;
+    background-image: url("../../../assets/background/Arunachalbg.jpg");
+    height: 100vh;
+    background-size: cover; /* Adjust background size as needed */
+    height: auto; /* Set element height */
+    
+  }
+  .intro-Arunachal{
+      /* border: 1px solid red; */
+      padding: 2.5rem 1.5rem;
+  }
+  .intro-Arunachal p{
+      font-size: 1.25rem;
+      color: rgb(214, 216, 218);
+  }
+  .places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 1rem 1rem;
+    margin: 2rem 2rem;
+    /* Additional grid styles as needed */
+  }
+  

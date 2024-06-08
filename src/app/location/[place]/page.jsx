@@ -1,3 +1,5 @@
+import AssamPage from "../../../../sites/location/places/assam/AssamPage";
+
 export default async function LocationPage({ params }) {
     const supportedLocations = [
         "meghalaya",
@@ -11,7 +13,7 @@ export default async function LocationPage({ params }) {
     } else {
         return (
             <>
-                <h1>{place}</h1>
+              <AssamPage />  
             </>
         );
     }
