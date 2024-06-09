@@ -15,3 +15,19 @@ span {
     color: rgb(185, 0, 0);
     font-size: 17.3px;
 }
+
+
+
+/* Media query for screens with a max width of 480px */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px; /* Add padding for better spacing */
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    span {
+        font-size: 15px; /* Adjust the font size for smaller screens */
+    }
+}
