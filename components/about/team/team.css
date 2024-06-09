@@ -1,20 +1,64 @@
 .team {
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #080808;
-    line-height: 1.8;
-    margin: 4rem 10rem;
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 1rem 0.9rem;
-    margin: 8rem 1.5rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #080808;
+  line-height: 1.8;
+  margin: 4rem 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 1rem 0.9rem;
+  margin: 8rem 1.5rem;
 }
 .team img {
-    height: auto;
-    max-width: 30%;
+  height: auto;
+  max-width: 30%;
 }
 .team p {
+  height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .team {
+    flex-direction: row-reverse; 
+    margin: 4rem 2rem; 
+    padding: 3rem 2rem;
+  }
+
+  .team img {
     height: auto;
+    margin-bottom: 1.5rem; 
+    max-width: 50%; 
+    width: 300px;
+  }
+
+  .team p {
+    margin-top: 1.5rem; 
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 0rem 0rem;
+  }
+}
+
+/* Media query for screens with a max width of 480px (Mobile) */
+@media screen and (max-width: 480px) {
+  .team {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 1.1rem 0rem;
+  }
+  .team p {
+    font-size: 1.1rem;
+    margin: auto;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .team img {
+    height: auto;
+    max-width: 70%;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 0.9rem;
+  }
 }
