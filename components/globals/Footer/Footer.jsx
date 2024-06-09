@@ -53,19 +53,19 @@ const Footer = () => {
                     <h3 className="footer-heading">Connect with Us</h3>
                     <div className="social-icons">
                         <a href="#">
-                            <i className="fab fa-facebook"></i>
+                            <i className="fa fa-facebook"></i>
                         </a>
                         <a href="#">
-                            <i className="fab fa-whatsapp"></i>
+                            <i className="fa fa-whatsapp"></i>
                         </a>
                         <a href="#">
-                            <i className="fab fa-instagram"></i>
+                            <i className="fa fa-instagram"></i>
                         </a>
                         <a href="#">
-                            <i className="fab fa-twitter"></i>
+                            <i className="fa fa-twitter"></i>
                         </a>
                         <a href="#">
-                            <i className="fab fa-linkedin"></i>
+                            <i className="fa fa-linkedin"></i>
                         </a>
                     </div>
                     <div className="address">
