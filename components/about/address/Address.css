@@ -1,17 +1,40 @@
 .office-address {
-    display: flex;
-    flex-direction: column;
-    margin: 10rem 21rem;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    width: 40rem;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: 10rem 21rem;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 40rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .office-address {
-    p,address {
-        font-size: 20px;
-    }
-    h2 {
-        margin-top: 20px;
-    }
+  p,
+  address {
+    font-size: 20px;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+}
+
+/* Media query for screens with a max width of 480px (Mobile) */
+@media screen and (max-width: 480px) {
+  .office-address {
+    margin: 6rem 0rem; 
+    width: auto; 
+    padding: 0.2rem; 
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37); 
+  }
+
+  .office-address p,
+  .office-address address {
+    font-size: 1rem; 
+    padding: 1rem 0rem;
+    line-height: 1.8rem;
+  }
+
+  .office-address h2 {
+    margin-top: 20px; 
+    font-size: 1.3rem; 
+  }
 }
