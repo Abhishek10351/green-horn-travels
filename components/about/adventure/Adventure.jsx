@@ -10,7 +10,7 @@ export default function Adventure() {
                 as you explore the wonders of Assam, Meghalaya, Arunachal Pradesh, and
                 beyond. Start planning your dream trip with us today!
             </p>
-            <p class="slogan">
+            <p className="slogan">
                 Experience the difference with Green Horn Travels - Where every journey
                 is a story waiting to be told!
             </p>
