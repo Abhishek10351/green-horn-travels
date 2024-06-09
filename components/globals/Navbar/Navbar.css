@@ -112,6 +112,7 @@ nav ul li:hover > ul {
 
 @media all and (max-width: 880px) {
   nav {
+    display: none;
     height: 10vh;
   }
 
