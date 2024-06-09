@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const AboutUs = () => {
     return (
-        <div className="about-us">
+        <section className="about-us">
             <header className="about-header">
                 <h1>About Us</h1>
             </header>
-            <section className="about-content">
+            <div className="about-content">
                 <div className="about-text">
                     <p>
                         Welcome to Green Horn Travels, your premier travel
@@ -41,8 +41,8 @@ const AboutUs = () => {
                         height={500}
                     />
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 };
 

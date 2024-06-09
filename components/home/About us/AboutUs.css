@@ -1,58 +1,74 @@
 /* Basic styling for the About Us component */
 .about-us {
-  padding: 20px;
+    padding: 20px;
 }
 
 .about-header {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
 }
 
 .about-text {
-  padding: 22px;
-  
-  box-sizing: border-box;
-}
-.about-text p{
-  
-  font-size: 19px;
-  font-family: "Inter", sans-serif;
-  
-}
-.about-text span{
-  font-size: 22px;
-  padding: 20px;
-  color: rgb(211, 39, 39);
-}
+    padding: 22px;
 
+    box-sizing: border-box;
+}
+.about-text p {
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+}
+.about-text span {
+    font-size: 22px;
+    padding: 20px;
+    color: rgb(211, 39, 39);
+}
 
 .about-illustration {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-illustration img {
-  
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-  .about-content {
-    grid-template-columns: 1fr;
-  }
+@media screen and (max-width: 1024px) {
 
-  .about-text,
-  .about-illustration {
-    padding: 10px;
+  .about-text{
+    text-align: justify;
   }
+}
+
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .about-text {
+        text-align: justify;
+    }
+    .about-text,
+    .about-illustration {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-text p {
+        font-size: 16px;
+    }
+    .about-text span {
+        font-size: 18px;
+    }
 }
