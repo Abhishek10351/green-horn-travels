@@ -1,7 +1,7 @@
 .Arunachal-container {
     padding: 5rem 2rem;
     color: aliceblue;
-    background-image: url("/public/assets/location/background/Arunachalbg.jpg");
+    background-image: url("/public/assets/background/Arunachalbg.jpg");
     height: 100vh;
     background-size: cover; /* Adjust background size as needed */
     height: auto; /* Set element height */

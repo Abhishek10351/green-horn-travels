@@ -1,7 +1,7 @@
 .assam-container {
     padding: 5rem 2rem;
     color: aliceblue;
-    background-image: url("/public/assets/locations/background/assambg5a.jpg");
+    background-image: url("/public/assets/background/assambg5a.jpg");
     height: 100vh;
     background-size: cover; /* Adjust background size as needed */
     height: auto; /* Set element height */
