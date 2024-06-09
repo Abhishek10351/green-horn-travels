@@ -1,19 +1,47 @@
-
 .welcome h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: #333;
-    margin-top: 12rem;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #333;
+  margin-top: 12rem;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .welcome p {
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #080808;
-    line-height: 1.8;
-    margin: 4rem 10rem;
-    margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #080808;
+  line-height: 1.8;
+  margin: 4rem 10rem;
+  margin-bottom: 20px;
+}
+/* Media query for screens with a max width of 1024px (tablets) */
+@media screen and (max-width: 1024px) {
+  .welcome h1 {
+    font-size: 3.3rem; /* Adjust font size for tablets */
+    margin-top: 8rem; /* Adjust top margin for tablets */
+    margin-bottom: 18px; /* Adjust bottom margin for tablets */
+  }
+
+  .welcome p {
+    font-size: 1.3rem; /* Adjust font size for tablets */
+    margin: 3rem 5rem; /* Adjust margins for tablets */
+    line-height: 1.6; /* Adjust line height for tablets */
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 480px) {
+  .welcome h1 {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    margin-top: 6rem; /* Adjust top margin */
+    margin-bottom: 15px; /* Adjust bottom margin */
+  }
+
+  .welcome p {
+    font-size: 1.1rem; /* Adjust font size for smaller screens */
+    margin: 2rem 2rem; /* Adjust margins for better fit */
+    line-height: 1.5; /* Adjust line height */
+    text-align: justify;
+  }
 }
