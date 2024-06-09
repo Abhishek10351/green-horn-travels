@@ -1,18 +1,69 @@
 .adventure {
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #080808;
-    line-height: 1.8;
-    margin: 4rem 10rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #080808;
+  line-height: 1.8;
+  margin: 4rem 10rem;
 }
 .adventure p {
-    padding: 1rem 0.9rem;
-    margin: 2rem 1rem;
+  padding: 1rem 0.9rem;
+  margin: 2rem 1rem;
 }
 
 .adventure .slogan {
-    color: rgb(160, 15, 15);
-    font-size: larger;
-    font-weight: 700;
+  color: rgb(160, 15, 15);
+  font-size: larger;
+  font-weight: 700;
+}
+
+/* Media query for screens with a max width of 1024px (Tablet) */
+@media screen and (max-width: 1024px) {
+  .adventure {
+    margin: 3rem 5rem; /* Adjust margin for tablet */
+    font-size: 1.3rem; /* Adjust font size for tablet */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Adjust box shadow for tablet */
+    padding: 1.5rem; /* Adjust padding for tablet */
+  }
+
+  .adventure p {
+    padding: 0.8rem 0.8rem; /* Adjust padding for tablet */
+    margin: 1.5rem 1rem; /* Adjust margin for tablet */
+    font-size: 1.2rem; /* Adjust font size for tablet */
+    text-align: justify;
+  }
+
+  .adventure .slogan {
+    font-size: 1.5rem; /* Adjust font size for tablet */
+    line-height: 2rem; /* Adjust line height for tablet */
+    color: rgb(167, 6, 6);
+    background-color: rgb(127, 255, 202);
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.822);
+  }
+}
+
+/* Media query for screens with a max width of 480px (Mobile) */
+@media screen and (max-width: 480px) {
+  .adventure {
+    margin: 3rem 0.1rem; /* Adjust margin for mobile */
+  }
+
+  .adventure p {
+    font-size: 1.1rem; /* Adjust font size for mobile */
+    padding: 0.5rem 0.5rem; /* Adjust padding for mobile */
+    margin: 2rem 0.3rem; /* Adjust margin for mobile */
+    text-align: justify;
+    line-height: 2rem;
+  }
+
+  .adventure .slogan {
+    /* border: 1px solid black; */
+    color: rgb(167, 6, 6);
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.822);
+    background-color: rgb(127, 255, 202);
+    font-size: 1.4rem; /* Adjust font size for mobile */
+    line-height: 2.1rem;
+  }
 }
