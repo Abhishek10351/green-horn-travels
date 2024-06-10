@@ -1,27 +1,14 @@
-import AssamPage from "../../../../sites/location/places/assam/AssamPage";
-import ArunachalPage from "../../../../sites/location/places/arunachal/ArunachalPage";
-import MeghalayaPage from "../../../../sites/location/places/meghalaya/MeghalayaPage";
+import PlacePage from "../../../../sites/location/places/PlacePage";
+export default function LocationPage({ params }) {
+    const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
 
-export default async function LocationPage({ params }) {
-    const supportedLocations = [
-        "meghalaya",
-        "assam",
-        "arunachal pradesh",
-        "arunachal",
-    ];
+    let place = decodeURIComponent(params.place);
 
-    const place = decodeURIComponent(params.place).toLowerCase();
-
-    const placeObject = {
-        meghalaya: MeghalayaPage,
-        assam: AssamPage,
-        "arunachal pradesh": ArunachalPage,
-        arunachal: ArunachalPage,
-    };
     if (supportedLocations.includes(place)) {
-        return <>{placeObject[place]()}</>;
-    }
-    else {
+        place = place.replace(/\b\w/g, (l) => l.toUpperCase());
+
+        return <PlacePage location={place} />;
+    } else {
         return <h1>404 - Not Found</h1>;
     }
 }
