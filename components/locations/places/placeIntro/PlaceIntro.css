@@ -1,0 +1,9 @@
+
+.intro-place {
+    /* border: 1px solid red; */
+    padding: 2.5rem 1.5rem;
+}
+.intro-place p {
+    font-size: 1.25rem;
+    color: rgb(214, 216, 218);
+}
