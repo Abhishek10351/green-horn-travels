@@ -17,11 +17,10 @@
 
 .about-text {
     padding: 22px;
-
     box-sizing: border-box;
 }
 .about-text p {
-    font-size: 19px;
+    font-size: 1.4rem;
     font-family: "Inter", sans-serif;
 }
 .about-text span {
@@ -43,20 +42,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-  .about-text{
-    text-align: justify;
-  }
+    .about-text {
+        text-align: justify;
+        padding: 10px;
+    }
 }
-
 
 @media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr;
-    }
-
-    .about-text {
-        text-align: justify;
+        /* background-color: blueviolet; */
     }
     .about-text,
     .about-illustration {
@@ -66,7 +61,7 @@
 
 @media screen and (max-width: 480px) {
     .about-text p {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .about-text span {
         font-size: 18px;
