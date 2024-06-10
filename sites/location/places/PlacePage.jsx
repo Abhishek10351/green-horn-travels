@@ -19,7 +19,7 @@ export default function PlacePage({ location }) {
 
     return (
         <>
-            <div className="assam-container" style={bg_style}>
+            <div className="place-container" style={bg_style}>
                 <PlaceIntro {...placeData} />
                 <PlacesCardSection places={Cards} />
             </div>
