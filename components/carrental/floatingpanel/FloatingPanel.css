@@ -1,0 +1,29 @@
+.floating-panel {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .floating-panel:hover {
+    background-color: #42e047;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-panel i {
+    font-size: 1.6rem;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .floating-panel span {
+    vertical-align: middle;
+    color: white;
+  }
