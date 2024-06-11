@@ -7,8 +7,7 @@
   align-items: center;
   grid-template-areas:
     "text image"
-    "button button"
-    "marquee marquee";
+    "button button";
 }
 
 .intro-carrentals p {
@@ -25,7 +24,7 @@
   width: 100%;
   height: auto;
   border-radius: 8px;
-  grid-area: image; /* Assign the image to the image grid area */
+  grid-area: image;
 }
 
 button {
@@ -39,58 +38,85 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  grid-area: button; /* Assign the button to the button grid area */
-  justify-self: center; /* Center the button horizontally */
-  align-self: center; /* Center the button vertically */
+  grid-area: button;
+  justify-self: center;
+  align-self: center;
 }
 
 button:hover {
   background-color: #68e601;
 }
-
-marquee {
-  font-size: 1.4rem;
-  color: #333;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  padding: 0.2rem 1rem; /* Added padding for better spacing */
-  background-color: #f8f7f7e3;
-  border-radius: 5px;
-  margin-top: 0.2rem;
-  display: flex;
-  align-items: center; /* Center text vertically */
-  justify-content: space-around; /* Space out the content */
-  grid-area: marquee; /* Assign the marquee to the marquee grid area */
-}
-
-marquee span {
-  color: rgb(196, 4, 4);
-  font-size: 1.4rem;
-  margin: 0 0.5rem; /* Add horizontal spacing between spans */
-}
-
-@media (max-width: 768px) {
+/* for tablet screens */
+@media screen and (max-width: 1024px) {
   .intro-carrentals {
-    grid-template-columns: 1fr; /* Single column layout on smaller screens */
-    grid-template-rows: auto auto auto auto; /* Four rows: text, image, button, marquee */
-    text-align: center;
-    grid-template-areas:
-      "text"
-      "image"
-      "button"
-      "marquee"; /* Stack the elements vertically */
+    display: flexbox;
+    flex-direction: row;
+    padding: 3rem 1.5rem;
+    gap: 2.8rem;
+    align-items: center;
   }
 
   .intro-carrentals p {
-    margin-bottom: 20px;
+    padding: 3rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+    order: 1;
   }
 
-  .intro-carrentals img {
+  .intro-carrentals-image {
     max-width: 100%;
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    order: 2;
   }
 
-  marquee {
-    flex-direction: column;
-    align-items: center;
+  button {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.5rem;
+    margin-left: 70%;
+    align-self: center;
+    order: 3;
+  }
+  button:hover {
+    background-color: #68e601;
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.24);
+  }
+}
+/* for mobile screens */
+@media screen and (max-width: 480px) {
+  .intro-carrentals {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+
+  .intro-carrentals p {
+    padding: 2rem 0.4rem;
+    font-size: 1rem;
+    order: 1;
+  }
+
+  .intro-carrentals-image {
+    max-width: 100%;
+    width: 75%;
+    height: auto;
+    order: 1;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.8rem;
+    margin-left: 0;
+    order: 3;
+    align-self: center;
+    border-radius: 10rem;
+  }
+  button:hover {
+    background-color: #6ce905;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.411);
   }
 }
