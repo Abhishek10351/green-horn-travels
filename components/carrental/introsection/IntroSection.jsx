@@ -12,7 +12,7 @@ export default function IntroSection() {
     return (
         <section className="intro-carrentals">
             <p>
-                Is this your first time venturing out on a tour? Don't worry,
+                Is this your first time venturing out on a tour? Don&apos;t worry,
                 Green Horn Travels is here to make your journey smooth! We offer
                 a wide range of car rentals to suit your every travel need, from
                 compact cars for exploring bustling cities to spacious SUVs for

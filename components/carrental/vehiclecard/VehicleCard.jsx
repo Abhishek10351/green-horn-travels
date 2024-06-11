@@ -18,10 +18,11 @@ export default function VehicleCard({ ...props }) {
                 alt={props.name}
                 width={300}
                 height={200}
+                className="vehicle-image"
             />
             <h2>{props.name}</h2>
             <p>{props.description}</p>
-            <button>Book Now</button>
+            <button className="vehicle-button">Book Now</button>
         </section>
     );
     // <button onClick={() => handleBookNow(props.name)}>Book Now</button>;
