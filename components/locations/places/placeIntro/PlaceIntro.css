@@ -1,9 +1,33 @@
-
 .intro-place {
     /* border: 1px solid red; */
     padding: 2.5rem 1.5rem;
 }
 .intro-place p {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     color: rgb(214, 216, 218);
+}
+
+@media screen and (max-width: 768px) {
+    .intro-place {
+        padding: 2rem 2rem;
+    }
+    .intro-place p {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro-place {
+        padding: 5rem 1rem;
+    }
+    .intro-place p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .intro-place {
+        padding: 4rem 0.2rem;
+    }
 }

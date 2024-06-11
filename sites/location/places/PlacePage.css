@@ -5,3 +5,9 @@
     background-size: cover; /* Adjust background size as needed */
     height: auto; /* Set element height */
 }
+
+@media screen and (max-width: 480px) {
+    .place-container {
+        padding: 4rem 1rem;
+    }
+}
