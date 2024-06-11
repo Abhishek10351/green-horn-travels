@@ -4,18 +4,18 @@ export default function PlacesCard({ ...place }) {
     return (
         <article className="card">
             <Image
-                className="card__background"
-                src={"/public/assets/locations/" + place.img}
+                className="card-background"
+                src={`/public/assets/locations/${place.img}`}
                 alt={`Photo of ${place.placeName}`}
                 width={400}
                 height={300}
             />
-            <div className="card__content flow">
-                <div className="card__content__container flow">
-                    <h2 className="card__title">{place.placeName}</h2>
-                    <p className="card__description">{place.info}</p>
+            <div className="card-content">
+                <div className="card-content-container flow">
+                    <h2 className="card-title">{place.placeName}</h2>
+                    <p className="card-description">{place.info}</p>
                 </div>
-                <button className="card__button">Book Now</button>
+                <button className="card-button">Book Now</button>
             </div>
         </article>
     );
