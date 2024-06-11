@@ -1,20 +1,22 @@
 .vehicle-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 1rem;
-    justify-items: center; 
-    position: relative; 
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  position: relative;
+  background-color: rgb(72, 223, 165);
+}
+
+.vehicle-cards::before {
+  content: "";
+  display: block;
+  padding-top: 10%;
+  grid-column: 1 / 3;
+}
+
+@media (max-width: 768px) {
+  .vehicle-cards {
+    grid-template-columns: 1fr;
   }
-  
-  .vehicle-cards::before {
-    content: '';
-    display: block;
-    padding-top: 10%; 
-    grid-column: 1 / 3; 
-  }
-  
-  @media (max-width: 768px) {
-    .vehicle-cards {
-      grid-template-columns: 1fr; 
-    }
-  }
+}
