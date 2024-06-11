@@ -1,55 +1,96 @@
 .intro-carrentals {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    border-radius: 8px;
+  padding: 5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+  align-items: center;
+  grid-template-areas:
+    "text image"
+    "button button"
+    "marquee marquee";
 }
 
 .intro-carrentals p {
-    flex: 1;
-    margin-right: 20px;
-    font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
+  padding: 5rem 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: justify;
+  grid-area: text;
 }
 
 .intro-carrentals-image {
-    max-width: 40%;
-    height: auto;
-    border-radius: 8px;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  grid-area: image; /* Assign the image to the image grid area */
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 1.28rem;
+  padding: 0.75rem 1.5rem;
+  margin-left: 35rem;
+  color: #fff;
+  background-color: #51b102;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  grid-area: button; /* Assign the button to the button grid area */
+  justify-self: center; /* Center the button horizontally */
+  align-self: center; /* Center the button vertically */
+}
+
+button:hover {
+  background-color: #68e601;
 }
 
 marquee {
-    font-size: 1.4rem;
-    color: #333;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    padding: 0.2rem;
-    background-color: #f8f7f7e3;
-    border-radius: 5px;
-    margin-top: 2.5rem;
-    justify-content: space-around;
+  font-size: 1.4rem;
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 0.2rem 1rem; /* Added padding for better spacing */
+  background-color: #f8f7f7e3;
+  border-radius: 5px;
+  margin-top: 0.2rem;
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: space-around; /* Space out the content */
+  grid-area: marquee; /* Assign the marquee to the marquee grid area */
 }
 
 marquee span {
-    color: rgb(196, 4, 4);
-    font-size: 1.4rem;
-    margin: 0px 2px;
+  color: rgb(196, 4, 4);
+  font-size: 1.4rem;
+  margin: 0 0.5rem; /* Add horizontal spacing between spans */
 }
 
 @media (max-width: 768px) {
-    .intro-carrentals {
-        flex-direction: column;
-        text-align: center;
-    }
+  .intro-carrentals {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    grid-template-rows: auto auto auto auto; /* Four rows: text, image, button, marquee */
+    text-align: center;
+    grid-template-areas:
+      "text"
+      "image"
+      "button"
+      "marquee"; /* Stack the elements vertically */
+  }
 
-    .intro-carrentals p {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
+  .intro-carrentals p {
+    margin-bottom: 20px;
+  }
 
-    .intro-carrentals img {
-        max-width: 100%;
-    }
+  .intro-carrentals img {
+    max-width: 100%;
+  }
+
+  marquee {
+    flex-direction: column;
+    align-items: center;
+  }
 }
