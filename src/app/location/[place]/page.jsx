@@ -1,10 +1,9 @@
+"use client";
 import PlacePage from "../../../../sites/location/places/PlacePage";
-
-export async function getServerSideProps(context) {
+export async function getStaticPaths() {
     return {
-        props: {
-            params: context.params,
-        },
+        paths: [],
+        fallback: true,
     };
 }
 export default function LocationPage({ params }) {
