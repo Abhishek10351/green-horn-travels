@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 export default function LocationPage({ params }) {
     const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
 
-    let place = decodeURIComponent(params.place);
+    let place = decodeURIComponent(params.place).toLowerCase();
 
     if (supportedLocations.includes(place)) {
         place = place.replace(/\b\w/g, (l) => l.toUpperCase());

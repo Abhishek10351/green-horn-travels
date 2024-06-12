@@ -46,7 +46,7 @@ export default function Carousel() {
         window.addEventListener("focus", () => {
             c.play();
         });
-    }, []);
+    });
 
     return (
         <>
