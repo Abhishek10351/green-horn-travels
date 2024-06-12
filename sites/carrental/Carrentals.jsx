@@ -1,8 +1,7 @@
 import Footer from "../../components/globals/Footer/Footer";
-import IntroSection from "../../components/carrental/introSection/IntroSection";
+import IntroSection from "../../components/carrental/introsection/IntroSection";
 import VehicleCardsSection from "../../components/carrental/vehiclecard/VehicleCardsSection";
 import FloatingPanel from "../../components/carrental/floatingpanel/FloatingPanel";
-
 export default function Carrentals() {
   return (
     <>

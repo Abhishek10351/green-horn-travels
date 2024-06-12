@@ -1,4 +1,4 @@
-import "./PlacesCardSection.css";
+import "./placesCardSection.css";
 import PlacesCard from "./PlacesCard";
 
 export default function PlacesCardSection({ places }) {

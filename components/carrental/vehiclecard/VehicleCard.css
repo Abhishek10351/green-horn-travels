@@ -35,7 +35,7 @@
 
 .vehicle-button {
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -72,5 +72,48 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+/* for tablet screen */
+@media screen and (max-width: 1024px) {
+  .vehicle-card {
+    margin: 3rem 1rem; 
+    padding: 2rem 1rem;
+    
+  }
+  .vehicle-card:hover {
+    box-shadow: 0 8px 16px rgba(187, 187, 187, 0.616);
+  }
+  .vehicle-button {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+  }
+}
+/* for mobile screen */
+@media screen and (max-width: 480px) {
+  .vehicle-cards {
+    grid-template-columns: 1fr; 
+    gap: 1rem; 
+  }
+
+  .vehicle-card {
+    margin: 2rem 0.5rem; 
+    max-width: 100%; 
+    width: 72%; 
+    padding: 2rem 0rem;
+  }
+  .vehicle-card:hover {
+    box-shadow: 0 8px 16px rgba(187, 187, 187, 0.616);
+  }
+  .vehicle-button {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .vehicle-card:nth-child(1),
+  .vehicle-card:nth-child(2),
+  .vehicle-card:nth-child(3) {
+    grid-column: auto; 
+    grid-row: auto; 
   }
 }
