@@ -1,29 +1,88 @@
 .floating-panel {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #4caf50;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+.floating-panel:hover {
+  background-color: #42e047;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.floating-panel i {
+  font-size: 1.6rem;
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: white;
+}
+
+.floating-panel span {
+  vertical-align: middle;
+  color: white;
+}
+
+/* for tablet screen */
+@media screen and (max-width: 1024px) {
+  .floating-panel {
     position: fixed;
-    top: 30%;
-    right: 0;
+    top: 15%;
+    right: 4px;
     transform: translateY(-50%);
-    background-color: #4CAF50;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background-color: #4caf50;
+    padding: 7px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
     cursor: pointer;
   }
-  
-  .floating-panel:hover {
-    background-color: #42e047;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
+
   .floating-panel i {
-    font-size: 1.6rem;
-    width: 30px;
-    vertical-align: middle;
-    margin-right: 10px;
-    color: white;
+    margin-right: 0;
+    margin-left: 5px;
   }
-  
   .floating-panel span {
     vertical-align: middle;
     color: white;
   }
+}
+
+/* for mobile screen */
+
+@media screen and (max-width: 480px) {
+  .floating-panel {
+    position: fixed;
+    top: 30%;
+    right: 6px;
+    transform: translateY(-50%);
+    background-color: #4caf50;
+    padding: 7px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+  }
+
+  .floating-panel i {
+    margin-right: 0;
+    margin-left: 4px;
+  }
+  .floating-panel span {
+    display: none;
+    vertical-align: middle;
+    color: white;
+  }
+
+  .floating-panel:hover span {
+    display: inline-flex;
+    padding: 4px;
+  }
+}
