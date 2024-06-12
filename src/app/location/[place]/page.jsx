@@ -6,6 +6,13 @@ export async function getStaticPaths() {
         fallback: true,
     };
 }
+
+export async function generateStaticParams() {
+    return {
+        paths: [],
+        fallback: true,
+    };
+}
 export default function LocationPage({ params }) {
     const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
 
