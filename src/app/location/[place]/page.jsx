@@ -1,4 +1,12 @@
 import PlacePage from "../../../../sites/location/places/PlacePage";
+
+export async function getServerSideProps(context) {
+    return {
+        props: {
+            params: context.params,
+        },
+    };
+}
 export default function LocationPage({ params }) {
     const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
 
