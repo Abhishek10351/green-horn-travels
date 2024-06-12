@@ -1,10 +1,10 @@
 import "./PlacePage.css";
 
-import Footer from "../../../components/globals/Footer/Footer";
-import PlacesCardSection from "../../../components/locations/PlacesCardSection/PlacesCardSection";
-import PlaceIntro from "../../../components/locations/places/placeIntro/placeIntro";
-import locationData from "../../../public/assets/data/place-components.json";
-import cardsData from "../../../public/assets/data/packages.json";
+import Footer from "../../components/globals/Footer/Footer";
+import PlacesCardSection from "../../components/locations/PlacesCardSection/PlacesCardSection";
+import PlaceIntro from "../../components/locations/places/placeIntro/placeIntro";
+import locationData from "../../public/assets/data/place-components.json";
+import cardsData from "../../public/assets/data/packages.json";
 export default function PlacePage({ location }) {
     const placeData = locationData.filter(
         (place) => place.location === location

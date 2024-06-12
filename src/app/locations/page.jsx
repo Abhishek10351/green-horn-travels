@@ -1,3 +1,5 @@
+import Location from "../../../sites/locations/location";
+
 export default function LocationPage() {
-    return <p>Working on Locations page...</p>;
+    return <Location />;
 }

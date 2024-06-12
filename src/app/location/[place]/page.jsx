@@ -1,4 +1,5 @@
-import PlacePage from "../../../../sites/location/places/PlacePage";
+import PlacePage from "../../../../sites/location/PlacePage";
+
 export async function getStaticPaths({ params }) {
     const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
 
