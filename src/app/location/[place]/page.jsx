@@ -1,4 +1,3 @@
-"use client";
 import PlacePage from "../../../../sites/location/places/PlacePage";
 export async function getStaticPaths() {
     return {
