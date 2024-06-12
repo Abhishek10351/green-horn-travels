@@ -1,12 +1,18 @@
 import PlacePage from "../../../../sites/location/places/PlacePage";
-export async function getStaticPaths({ params}) {
+export async function getStaticPaths({ params }) {
+    const supportedLocations = ["meghalaya", "assam", "arunachal pradesh"];
+
     return {
-        paths: [],
+        paths: supportedLocations.map((location) => ({
+            params: {
+                place: location,
+            },
+        })),
         fallback: true,
     };
 }
 
-export async function generateStaticParams({ params}) {
+export async function generateStaticParams({ params }) {
     return {
         paths: [],
         fallback: true,
