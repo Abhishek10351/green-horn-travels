@@ -6,6 +6,3 @@ export default function HomePage() {
     </>
   );
 }
-
-
-
