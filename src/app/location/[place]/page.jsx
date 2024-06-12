@@ -1,12 +1,12 @@
 import PlacePage from "../../../../sites/location/places/PlacePage";
-export async function getStaticPaths() {
+export async function getStaticPaths({ params}) {
     return {
         paths: [],
         fallback: true,
     };
 }
 
-export async function generateStaticParams() {
+export async function generateStaticParams({ params}) {
     return {
         paths: [],
         fallback: true,
