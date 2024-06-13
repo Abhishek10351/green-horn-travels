@@ -1,4 +1,6 @@
-/* Ensure the footer covers the full width of the screen */
+.footer > * {
+    box-shadow: 0 0 3px 3px darkslateblue;
+}
 .footer {
     width: 100%;
     height: auto;
@@ -9,19 +11,9 @@
     margin: 0;
     box-sizing: border-box;
     display: grid;
-    /* Ensures padding is included in the element's total width and height */
-}
-
-/* Ensure the footer container takes full width and centers content */
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 2rem;
-    width: 100%; /* Ensure it takes full width */
-    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
-    justify-content: space-between; /* Distributes space between items */
+    grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo links address social" " map map bottom bottom ";
 }
 
 .footer-logo,
@@ -29,28 +21,22 @@
 .footer-map,
 .footer-social {
     flex: 1 1 250px; /* Adjust the basis as needed */
-    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
 }
 
-.footer-logo .logo {
+.footer-logo {
     font-size: 1.9rem;
     font-weight: bold;
     padding: 30px -10px;
+    grid-area: logo;
 }
 .logo p {
     font-size: 2rem;
     display: flex;
     margin: 5px -20px;
 }
-
-.footer-heading {
-    font-size: 1.25rem;
-    font-weight: 700;
-
-    margin-bottom: 1rem;
-    color: #ffeb3a;
+.footer-links {
+    grid-area: links;
 }
-
 .footer-links ul {
     list-style-type: none;
     padding: 0;
@@ -68,7 +54,9 @@
     font-weight: 400;
     text-decoration: none;
 }
-
+.footer-social {
+    grid-area: social;
+}
 .footer-links a:hover,
 .footer-social a:hover {
     color: #f7a816;
@@ -83,11 +71,16 @@
 .social-icons a:hover {
     /* color: #0863f6; */
 }
-
+.footer-address {
+    grid-area: address;
+}
+.footer-map {
+    grid-area: map;
+}
 .footer-bottom {
+    grid-area: bottom;
     text-align: center;
     padding: 1rem 0;
-    /* background-color: #0a0a0a; */
     margin-top: 1rem;
     color: #fff;
     font-weight: bold;
@@ -105,30 +98,29 @@
         grid-template-columns: 1fr;
         overflow-x: hidden;
         background: radial-gradient(circle, #045024, #03a145);
+        grid-template-areas: "logo" "links" "address" "social" "map" "bottom";
     }
 
     .footer-logo {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* background-color: #0863f6; */
         margin-right: 0rem;
-        padding: 0rem 0rem; /* Remove unnecessary margin */
+        padding: 0rem; /* Remove unnecessary margin */
     }
 
     .footer-logo p {
         width: fit-content;
-        /* background-color: #dfd475d5; */
         padding: 0rem 0rem;
         font-size: 1.6rem;
         font-weight: 600;
         margin-left: 0.8rem;
         text-align: center;
     }
-    .footer-logo img {
+    .footer-logo-img {
         padding: 0.5rem 0.3rem;
         display: flex;
-        align-items: start;
+        align-items: flex-start;
     }
 
     .footer-links {
@@ -138,24 +130,22 @@
         gap: 2rem;
         padding: 2rem 0.2rem;
         border-bottom: 1px solid rgb(196, 196, 196);
-    }
-    .quicklinks {
         font-size: 1rem;
         padding: 0.1rem 0.5rem;
         font-style: normal;
     }
-    .quicklinks h3 {
+    .footer-links h3 {
         font-size: 1.3rem;
         margin-bottom: 1rem;
         color: #ffeb3a;
     }
-    .address {
+    .footer-address {
         font-size: 1rem;
         padding: 0.1rem 0.3rem;
         font-style: normal;
         line-height: 1.5rem;
     }
-    .address h3 {
+    .footer-address h3 {
         font-size: 1.3rem;
         margin-bottom: 1rem;
         color: #ffeb3a;
@@ -181,8 +171,6 @@
         padding: 1rem 0.5rem;
         margin-bottom: 2rem;
         border-bottom: 1px solid white;
-
-        /* background: #c2b220; */
     }
     .social-icons h3 {
         color: #ffeb3a;
@@ -197,11 +185,6 @@
         font-size: 1.8rem;
     }
 
-    .social-icons a i:hover {
-        /* color: #0863f6; */
-        font-size: 1.9rem;
-    }
-
     .footer-map {
         display: flex;
         flex-direction: column;
@@ -209,7 +192,6 @@
         margin: 0.2rem auto;
         width: 100%;
         height: auto;
-        /* background-color: #c7b61e;  */
     }
     .footer-map h3 {
         color: #ffeb3a;
