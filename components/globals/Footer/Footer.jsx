@@ -40,6 +40,15 @@ export default function Footer() {
                     Lichubagan, Hengrabari Guwahati, Assam <br />
                     Pin Code - 781036
                 </address>
+                <h3 className="contact-details">Contact Details</h3>
+                <p>
+                    Phone No: <a href="tel:+91-7002822793">+91-7002822793</a>{" "}
+                    <br />
+                    Mail:{" "}
+                    <a href="mailto:greenhorntravelsguwahati@gmail.com">
+                        greenhorntravelsguwahati@gmail.com
+                    </a>
+                </p>
             </div>
 
             <div className="footer-social">
