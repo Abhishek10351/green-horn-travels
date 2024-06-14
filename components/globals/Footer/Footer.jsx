@@ -65,8 +65,6 @@ export default function Footer() {
                     className="map-iframe"
                     title="office-location"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3202272193926!2d91.8001233!3d26.153698499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a59007cbafba1%3A0x806a75f100c1fe73!2sGreen%20Horn%20Travels%20-%20Travel%20Agency%20in%20Guwahati!5e0!3m2!1sen!2sin!4v1717577556663!5m2!1sen!2sin"
-                    width="400"
-                    height="250"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
