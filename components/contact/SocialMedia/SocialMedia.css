@@ -1,0 +1,104 @@
+.whatsapp-link {
+  padding: 3rem 2rem;
+  background-color: rgb(10, 175, 98);
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.486);
+  height: 100%;
+  width: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1rem;
+  margin: 3rem 8rem;
+}
+.whatsapp-link p {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+}
+.whatsapp-link button {
+  padding: 1.5rem;
+  width: 75%;
+  height: 100%;
+  background-color: rgb(236, 236, 236);
+  /* color: white; */
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin: 0rem 2.6rem;
+  margin-left: 4rem;
+}
+.whatsapp-link button:hover {
+  /* background-color: rgb(18, 199, 12); */
+  box-shadow: 0px 2px 4px 2px rgba(197, 197, 197, 0.486);
+  transform: translateY(-5px);
+}
+
+.whatsapp-link button a {
+  text-decoration: none;
+  color: rgb(18, 199, 12);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.whatsapp-link button i {
+  text-decoration: none;
+  color: rgb(18, 199, 12);
+  font-size: 2rem;
+}
+
+.socialhandles {
+  max-height: 10rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  /* background-color: rgb(2, 161, 87); */
+  padding: 1rem;
+}
+.socialhandles p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(250, 250, 250);
+  margin: 0.5rem;
+}
+icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem;
+}
+.socialhandles a i {
+  text-decoration: none;
+  color: white;
+  font-size: 2.2rem;
+  margin: 0rem 1rem;
+}
+.socialhandles a i:hover {
+  font-size: 2.43rem;
+}
+
+phone {
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+phone .phone {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  margin-right: 1rem;
+}
+.socialhandles phone .phone i {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.socialhandles phone a p {
+  font-size: 1rem;
+}
