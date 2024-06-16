@@ -18,12 +18,13 @@
 .footer h3 {
     color: #ffeb3a;
 }
-.footer-logo,
+/* .footer-logo,
 .footer-links,
 .footer-map,
 .footer-social {
-    flex: 1 1 250px; /* Adjust the basis as needed */
-}
+    flex: 1 1 250px; 
+} */
+
 
 .footer-logo {
     font-size: 1.9rem;
@@ -90,7 +91,11 @@
 }
 .footer-contact {
     grid-area: contact;
-    /* display: none; */
+    margin: 1rem auto;
+
+}
+.footer-contact p a{
+    font-weight: bold;
 }
 .footer-icons{
     display: flex;
@@ -119,13 +124,20 @@
     height: 100%;
 }
 @media screen and (max-width: 992px) {
-    .footer > * {
-        box-shadow: 0 0 3px 3px dodgerblue;
-    }
     .footer {
         grid-template-areas: "logo links address" "social map contact" "bottom bottom bottom";
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 0.8fr 1fr;
         grid-template-rows: 1fr 1fr 0.4fr;
+    }
+    .footer-contact{
+        margin: 0.8rem auto;        
+    }
+    .footer-contact p{
+        width:auto;
+        font-size: 1.1rem;
+    }
+    .footer-contact p a{
+        font-size: 0.9rem;
     }
 }
 
@@ -138,6 +150,9 @@
         grid-template-rows: 1fr 1fr 1fr 0.4fr;
         grid-template-areas: "logo links" "address social" "map contact" "bottom bottom";
     }
+    .footer h3{
+        font-size: 1.3rem;
+    }
     .footer-logo {
         padding: 0.5rem 0.3rem;
     }
@@ -147,20 +162,14 @@
     .footer-links {
         padding: 0.1rem 0.5rem;
     }
-    .footer-links h3 {
-        font-size: 1.3rem;
-    }
     .footer-address {
         padding: 0.1rem 0.3rem;
     }
-    .footer-address h3 {
-        font-size: 1.3rem;
-    }
     .footer-contact p{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .footer-contact p a{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .footer-links ul li {
         padding: 0rem 0.5rem;
@@ -171,16 +180,9 @@
     .footer-links ul {
         margin-top: 1rem;
     }
-    .social-icons h3 {
-        font-size: 1.1rem;
-    }
+
     .footer-social a i {
         font-size: 1.8rem;
-    }
-    .footer-map {
-    }
-    .footer-map h3 {
-        font-size: 1.2rem;
     }
     .footer-map .map-iframe {
         width: 80%;
@@ -209,7 +211,8 @@
         flex-direction: row;
         align-items: center;
         margin-right: 0rem;
-        padding: 0rem; /* Remove unnecessary margin */
+        padding: 0rem; 
+        /* Remove unnecessary margin */
     }
 
     .footer-logo p {
@@ -226,7 +229,6 @@
 
     .footer-links {
         width: auto;
-        gap: 2rem;
         padding: 2rem 0.2rem;
         border-bottom: 1px solid rgb(196, 196, 196);
         font-size: 1rem;
@@ -249,6 +251,14 @@
     }
     .footer-address address{
         font-size: 1.2rem;
+    }
+    .footer-contact p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    .footer-contact p a{
+        font-size: 1rem;
+        font-weight: 600;
     }
 
     .footer-links ul li {
