@@ -35,7 +35,7 @@ const AboutUs = () => {
                 </div>
                 <div className="about-illustration">
                     <Image
-                        src="/public/assets/illustrations/travel-concept.png"
+                        src="/assets/illustrations/travel-concept.png"
                         alt="Illustration"
                         width={500}
                         height={500}

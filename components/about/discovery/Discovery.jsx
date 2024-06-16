@@ -9,7 +9,7 @@ export default function LocationDiscoveryCard({ ...obj }) {
     const [ref, isIntersecting] = useIntersectionObserver({
         threshold: 0.1,
     });
-    const img_dir = "/public/assets/about-page-images/";
+    const img_dir = "/assets/about-page-images/";
 
     return (
         <div
