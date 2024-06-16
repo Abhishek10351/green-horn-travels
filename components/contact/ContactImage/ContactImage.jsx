@@ -7,7 +7,7 @@ export default function ContactImage() {
     <div className="contact-image">
       <Image
         className="intro-carrentals-image"
-        src="/public/assets/illustrations/contact3.png"
+        src="/public/assets/illustrations/contact4.png"
         alt="Car Rental"
         width={300}
         height={300}
