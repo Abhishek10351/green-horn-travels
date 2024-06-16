@@ -1,8 +1,33 @@
-.contact-container{
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 4rem 3rem;
+}
+
+/* for tablet screens */
+
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    padding: 3rem 3.2rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 834px) {
+  .contact-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    height: auto;
-    padding: 4rem 3rem;
-    /* background-color: aquamarine; */
+    justify-content: center;
+    padding: 3rem 1.5rem;
+  }
+}
+/* for mobile screens */
+@media screen and (max-width: 480px) {
+  .contact-container {
+    overflow-x: hidden;
+    flex-direction: column-reverse;
+    padding: 2rem 1.5rem;
+  }
 }
