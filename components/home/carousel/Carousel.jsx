@@ -6,7 +6,7 @@ import { Buttons } from "./Buttons";
 import SliderButtons from "./SliderButtons";
 import Image from "next/image";
 export default function Carousel() {
-    const image_route = "/public/assets/clients/";
+    const image_route = "/assets/clients/";
     const images = [];
     for (let i = 1; i <= 13; i++) {
         images.push(`${image_route}image-${i}.jpg`);

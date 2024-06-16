@@ -1,6 +1,6 @@
 import "./Packages.css";
 export default function PackagesCard({ title, image, info, overlay }) {
-    const image_path = "/public/assets/package-images/";
+    const image_path = "/assets/package-images/";
     const package_path = `/location/${title.toLowerCase()}`;
     return (
         <div className="ag-packages_item">
