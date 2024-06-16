@@ -4,14 +4,15 @@ import Image from "next/image";
 
 export default function ContactImage() {
   return (
-      <div className="contact-image">
-          <Image
-              className="intro-carrentals-image"
-              src="/assets/illustrations/contact3.png"
-              alt="Car Rental"
-              width={300}
-              height={300}
-          />
-      </div>
+    <div className="contact-image">
+      <Image
+        className="intro-carrentals-image"
+        src="/assets/illustrations/contact4.png"
+        alt="Car Rental"
+        width={300}
+        height={300}
+      />
+    </div>
+ 
   );
 }

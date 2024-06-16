@@ -47,12 +47,11 @@ export default function WhatsAppLink() {
           <phone>
             <i className="fa fa-phone"></i>+91-7002822793
           </phone>
-          
         </div>
         <address>
-            Adress : Lichubagan, Hengrabari Guwahati, Assam <br />
-            Pin Code - 781036
-          </address>
+          Address : Lichubagan, Hengrabari Guwahati, Assam <br />
+          Pin Code - 781036
+        </address>
       </div>
     </>
   );

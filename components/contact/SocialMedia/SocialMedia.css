@@ -1,6 +1,10 @@
 .whatsapp-link {
-  padding: 3rem 2rem;
-  background-color: rgb(10, 175, 98);
+  padding: 3rem 1rem;
+  background: linear-gradient(
+    135deg,
+    rgb(6, 179, 98) 0%,
+    rgb(6, 144, 146) 100%
+  );
   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.486);
   height: 100%;
   width: auto;
@@ -9,7 +13,7 @@
   align-items: center;
   border-radius: 8px;
   gap: 1rem;
-  margin: 3rem 8rem;
+  margin: 2.9rem 6rem;
 }
 .whatsapp-link p {
   text-align: center;
@@ -18,8 +22,8 @@
   color: rgb(255, 255, 255);
 }
 .whatsapp-link button {
-  padding: 1.5rem;
-  width: 75%;
+  padding: 0.8rem;
+  width: 65%;
   height: 100%;
   background-color: rgb(236, 236, 236);
   /* color: white; */
@@ -27,8 +31,8 @@
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 0.3s;
-  margin: 0rem 2.6rem;
-  margin-left: 4rem;
+  margin: 0rem 3.6rem;
+  margin-left: 6rem;
 }
 .whatsapp-link button:hover {
   /* background-color: rgb(18, 199, 12); */
@@ -78,23 +82,9 @@ icons {
   margin: 0rem 1rem;
 }
 .socialhandles a i:hover {
-  font-size: 2.43rem;
+  font-size: 2.3rem;
 }
 
-phone {
-  /* background-color: blueviolet; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 2rem;
-  padding: 1rem;
-}
-phone .phone {
-  color: rgb(255, 255, 255);
-  font-size: 1.4rem;
-  padding: 1.2rem;
-  margin-right: 1rem;
-}
 .socialhandles phone .phone i {
   font-size: 1.6rem;
   margin-right: 1rem;
@@ -102,6 +92,35 @@ phone .phone {
 .socialhandles phone a p {
   font-size: 1rem;
 }
+phone {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.fa-phone {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 0.3rem;
+}
+address {
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 8px;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
 /* for tablet screen */
 @media screen and (max-width: 1024px) {
   .whatsapp-link {
@@ -143,10 +162,10 @@ phone .phone {
     height: auto;
   }
   .socialhandles p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .socialhandles a i {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin: 0 0.9rem;
   }
   .socialhandles a i:hover {
@@ -159,10 +178,10 @@ phone .phone {
     align-items: center;
     justify-content: center;
     width: auto;
-    margin-top: 0rem;
+    margin-top: 1rem;
     width: 100%;
     /* background-color: blueviolet; */
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .fa-phone {
     font-size: 1.7rem;
@@ -176,6 +195,7 @@ phone .phone {
     padding: 0.7rem;
     border-radius: 8px;
     line-height: 1.6rem;
+    font-weight: 500;
     text-align: center;
   }
 }
@@ -184,7 +204,7 @@ phone .phone {
     background: linear-gradient(
       135deg,
       rgb(6, 145, 80) 0%,
-      rgb(19, 154, 156) 100%
+      rgb(8, 124, 126) 100%
     );
     display: grid;
     width: auto;
@@ -198,7 +218,7 @@ phone .phone {
   }
   .whatsapp-link button {
     padding: 1rem;
-    width: 65%;
+    width: 75%;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -235,7 +255,7 @@ phone .phone {
     align-items: center;
     justify-content: center;
     width: auto;
-    margin-top: 0rem;
+    margin-top: 1rem;
     width: 100%;
     /* background-color: blueviolet; */
     font-size: 1rem;
@@ -252,6 +272,8 @@ phone .phone {
     padding: 0.7rem;
     border-radius: 8px;
     line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
     text-align: center;
   }
 }
