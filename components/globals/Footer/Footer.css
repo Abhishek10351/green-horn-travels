@@ -1,6 +1,4 @@
-.footer > * {
-    /* background-color: coral; */
-}
+
 .footer {
     width: 100%;
     height: auto;
@@ -18,12 +16,6 @@
 .footer h3 {
     color: #ffeb3a;
 }
-/* .footer-logo,
-.footer-links,
-.footer-map,
-.footer-social {
-    flex: 1 1 250px; 
-} */
 
 
 .footer-logo {
@@ -202,8 +194,11 @@
     .footer {
         padding: 2rem 0rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 0.6fr 0.8fr 1fr 0.4fr;
+        grid-template-rows: 1fr 1fr 0.6fr 0.6fr 1fr 0.4fr;
         grid-template-areas: "logo logo" "links address" "contact contact" "social social" "map map" "bottom bottom";
+    }
+    .footer h3{
+        text-align: center;
     }
 
     .footer-logo {
@@ -230,7 +225,7 @@
     .footer-links {
         width: auto;
         padding: 2rem 0.2rem;
-        border-bottom: 1px solid rgb(196, 196, 196);
+        /* border-bottom: 1px solid rgb(196, 196, 196); */
         font-size: 1rem;
         padding: 0.1rem 0.5rem;
         font-style: normal;
@@ -238,6 +233,7 @@
     .footer-links h3 {
         font-size: 1.3rem;
         margin-bottom: 1rem;
+        text-align: left;
     }
     .footer-address {
         font-size: 1rem;
@@ -251,6 +247,9 @@
     }
     .footer-address address{
         font-size: 1.2rem;
+    }
+    .footer-contact h3{
+        text-align: left;
     }
     .footer-contact p{
         font-size: 0.9rem;
@@ -279,11 +278,9 @@
         flex-direction: column;
         align-items: center;
         padding: 1rem 0.5rem;
-        border-bottom: 1px solid white;
+        /* border-bottom: 1px solid white; */
     }
     .social-icons h3 {
-        font-size: 1.1rem;
-        text-align: center;
         margin-bottom: 1.1rem;
     }
 
