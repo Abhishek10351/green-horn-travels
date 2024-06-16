@@ -14,7 +14,7 @@ export default function VehicleCard({ ...props }) {
     return (
         <section className={`vehicle-card`}>
             <Image
-                src={`/public/assets/cars/${props.img}`}
+                src={`/assets/cars/${props.img}`}
                 alt={props.name}
                 width={300}
                 height={200}
