@@ -12,8 +12,8 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1.2fr 0.8fr 1.2fr 0.8fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "logo links address social" " map map bottom bottom ";
+    grid-template-rows: 1fr 1fr 0.4fr;
+    grid-template-areas: "logo links address social" " map map contact contact "  "bottom bottom bottom bottom";
 }
 .footer h3 {
     color: #ffeb3a;
@@ -42,9 +42,6 @@
 }
 .footer-links {
     grid-area: links;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 .footer-links ul {
     list-style-type: none;
@@ -57,11 +54,9 @@
 
 .footer-links a,
 .footer-social a {
-    color: #fff;
     font-size: 1.1rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    text-decoration: none;
 }
 .footer-social {
     grid-area: social;
@@ -73,13 +68,12 @@
 .social-icons a {
     font-size: 1.9rem;
     color: #e1e1e1;
-    margin-right: 1rem;
 }
 .fa-facebook:hover {
     color: #3b5998;
 }
 .fa-instagram:hover {
-    color: #e4405f;
+    color:#ff0069;
 }
 .fa-whatsapp:hover {
     color: #25d366;
@@ -94,11 +88,17 @@
     grid-area: address;
     line-height: 1.5;
 }
-.footer-address a {
+.footer-contact {
+    grid-area: contact;
+    /* display: none; */
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
     color: #fff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 800;
     text-decoration: none;
 }
 .footer-map {
@@ -111,6 +111,7 @@
     width: 100%;
     box-sizing: border-box;
 }
+
 .footer-bottom p {
     color: #fff;
     font-weight: bold;
@@ -122,8 +123,9 @@
         box-shadow: 0 0 3px 3px dodgerblue;
     }
     .footer {
-        grid-template-areas: "logo links address" "social map bottom";
+        grid-template-areas: "logo links address" "social map contact" "bottom bottom bottom";
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.4fr;
     }
 }
 
@@ -132,9 +134,9 @@
 @media screen and (max-width: 768px) {
     .footer {
         padding: 1rem 0rem;
-        grid-template-columns: 1.2fr 0.8fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: "logo links" "address social" "map bottom";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 0.4fr;
+        grid-template-areas: "logo links" "address social" "map contact" "bottom bottom";
     }
     .footer-logo {
         padding: 0.5rem 0.3rem;
@@ -154,6 +156,12 @@
     .footer-address h3 {
         font-size: 1.3rem;
     }
+    .footer-contact p{
+        font-size: 1rem;
+    }
+    .footer-contact p a{
+        font-size: 0.8rem;
+    }
     .footer-links ul li {
         padding: 0rem 0.5rem;
     }
@@ -163,20 +171,13 @@
     .footer-links ul {
         margin-top: 1rem;
     }
-    .footer-social {
-        padding: 1rem 0.5rem;
-    }
     .social-icons h3 {
         font-size: 1.1rem;
-    }
-    .footer-social a {
-        padding: 1rem 0.5rem;
     }
     .footer-social a i {
         font-size: 1.8rem;
     }
     .footer-map {
-        margin: 0.2rem auto;
     }
     .footer-map h3 {
         font-size: 1.2rem;
@@ -198,9 +199,9 @@
 @media screen and (max-width: 480px) {
     .footer {
         padding: 2rem 0rem;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 0.8fr 1fr 0.4fr;
-        grid-template-areas: "logo" "links" "address" "social" "map" "bottom";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.6fr 0.8fr 1fr 0.4fr;
+        grid-template-areas: "logo logo" "links address" "contact contact" "social social" "map map" "bottom bottom";
     }
 
     .footer-logo {
@@ -221,8 +222,6 @@
     }
     .footer-logo-img {
         padding: 0.5rem 0.3rem;
-        display: flex;
-        align-items: flex-start;
     }
 
     .footer-links {
@@ -247,6 +246,9 @@
     .footer-address h3 {
         font-size: 1.3rem;
         margin-bottom: 1rem;
+    }
+    .footer-address address{
+        font-size: 1.2rem;
     }
 
     .footer-links ul li {
@@ -274,13 +276,13 @@
         text-align: center;
         margin-bottom: 1.1rem;
     }
-    .footer-social a {
-        padding: 1rem 0.5rem;
-    }
+
     .footer-social a i {
         font-size: 1.8rem;
     }
-
+    .footer-icons{
+        width: 90vw;
+    }
     .footer-map {
         display: flex;
         flex-direction: column;
