@@ -102,3 +102,156 @@ phone .phone {
 .socialhandles phone a p {
   font-size: 1rem;
 }
+/* for tablet screen */
+@media screen and (max-width: 1024px) {
+  .whatsapp-link {
+    background: linear-gradient(
+      135deg,
+      rgb(6, 155, 86) 0%,
+      rgb(19, 154, 156) 100%
+    );
+    display: grid;
+    width: auto;
+    padding: 3rem 2.5rem;
+    margin: 0.2rem;
+    grid-template-rows: auto auto;
+    gap: 1.2rem;
+  }
+  .whatsapp-link p {
+    font-size: 1.2rem;
+  }
+  .whatsapp-link button {
+    padding: 1rem;
+    width: 65%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whatsapp-link button a {
+    font-size: 1.1rem;
+  }
+  .whatsapp-link button i {
+    font-size: 1.4rem;
+  }
+  .socialhandles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    height: auto;
+  }
+  .socialhandles p {
+    font-size: 1rem;
+  }
+  .socialhandles a i {
+    font-size: 1.6rem;
+    margin: 0 0.9rem;
+  }
+  .socialhandles a i:hover {
+    font-size: 1.8rem;
+  }
+
+  phone {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 0rem;
+    width: 100%;
+    /* background-color: blueviolet; */
+    font-size: 1rem;
+  }
+  .fa-phone {
+    font-size: 1.7rem;
+    margin-right: 0.3rem;
+  }
+  address {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 8px;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .whatsapp-link {
+    background: linear-gradient(
+      135deg,
+      rgb(6, 145, 80) 0%,
+      rgb(19, 154, 156) 100%
+    );
+    display: grid;
+    width: auto;
+    padding: 3rem 2.5rem;
+    margin: 0.2rem;
+    grid-template-rows: auto auto;
+    gap: 1.2rem;
+  }
+  .whatsapp-link p {
+    font-size: 1rem;
+  }
+  .whatsapp-link button {
+    padding: 1rem;
+    width: 65%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .whatsapp-link button a {
+    font-size: 1.1rem;
+  }
+  .whatsapp-link button i {
+    font-size: 1.4rem;
+  }
+  .socialhandles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+    height: auto;
+  }
+  .socialhandles p {
+    font-size: 1rem;
+  }
+  .socialhandles a i {
+    font-size: 1.5rem;
+    margin: 0 0.9rem;
+  }
+  .socialhandles a i:hover {
+    font-size: 1.7rem;
+  }
+
+  phone {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin-top: 0rem;
+    width: 100%;
+    /* background-color: blueviolet; */
+    font-size: 1rem;
+  }
+  .fa-phone {
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+  }
+  address {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 500;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 8px;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+}
