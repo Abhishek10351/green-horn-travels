@@ -41,22 +41,38 @@ export default function Footer() {
                     Pin Code - 781036
                 </address>
             </div>
+            <div className="footer-contact">
+                <h3 className="contact-details">Contact Details</h3>
+                <p>
+                    Phone No: <a href="tel:+91-7002822793">+91-7002822793</a>{" "}
+                    <br />
+                    Mail:{" "}
+                    <a href="mailto:greenhorntravelsguwahati@gmail.com">
+                        greenhorntravelsguwahati@gmail.com
+                    </a>
+                </p>
+            </div>
 
             <div className="footer-social">
                 <div className="social-icons">
                     <h3>Connect with us</h3>
-                    <a href="tel:+917002822793">
-                        <i className="fa fa-phone"></i>
-                    </a>
-                    <a href="#">
-                        <i className="fa fa-facebook"></i>
-                    </a>
-                    <a href="https://wa.me/7002822793">
-                        <i className="fa fa-whatsapp"></i>
-                    </a>
-                    <a href="https://www.instagram.com/green_horn_travels">
-                        <i className="fa fa-instagram"></i>
-                    </a>
+                    <div className="footer-icons">
+                        <a href="tel:+917002822793">
+                            <i className="fa fa-phone"></i>
+                        </a>
+                        <a href="#">
+                            <i className="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/7002822793">
+                            <i className="fa fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/green_horn_travels">
+                            <i className="fa fa-instagram"></i>
+                        </a>
+                        <a href="mailto:greenhorntravelsguwahati@gmail.com">
+                            <i className="fa fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="footer-map">
