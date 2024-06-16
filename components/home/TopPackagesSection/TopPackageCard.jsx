@@ -1,7 +1,7 @@
 import "./TopPackageCard.css";
 import Image from "next/image";
 function TopPackageCard({ image, title, description }) {
-    const image_path = `/public/assets/top-locations/${image}`;
+    const image_path = `/assets/top-locations/${image}`;
     const image_style = {
         width: "100%",
         height: "200px",

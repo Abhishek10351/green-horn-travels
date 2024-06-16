@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <section className="hero-container">
             <video
-                src="./public/assets/media/introvideo.mp4"
+                src="/assets/media/introvideo.mp4"
                 autoPlay
                 loop
                 muted

@@ -5,7 +5,7 @@ export default function PlacesCard({ ...place }) {
         <article className="card">
             <Image
                 className="card-background"
-                src={`/public/assets/locations/${place.img}`}
+                src={`/assets/locations/${place.img}`}
                 alt={`Photo of ${place.placeName}`}
                 width={400}
                 height={300}

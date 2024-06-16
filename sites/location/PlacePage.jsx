@@ -12,7 +12,7 @@ export default function PlacePage({ location }) {
     const Cards = cardsData.filter((card) =>
         card.location.startsWith(location)
     );
-    const img = `/public/assets/background/${placeData.img}`;
+    const img = `/assets/background/${placeData.img}`;
     const bg_style = {
         backgroundImage: `url(${img})`,
     };
