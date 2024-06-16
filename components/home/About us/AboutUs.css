@@ -1,69 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* Basic styling for the About Us component */
 .about-us {
-    padding: 20px;
+  padding: 20px;
 }
 
 .about-header {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-header h1{
+    font-size: 2.4rem;
+    color: rgb(49, 49, 49);
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
 }
 
 .about-text {
-    padding: 22px;
-    box-sizing: border-box;
+  padding: 22px;
+  box-sizing: border-box;
 }
 .about-text p {
-    font-size: 1.4rem;
-    font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 2rem;
+  text-align: justify;
 }
 .about-text span {
-    font-size: 22px;
-    padding: 20px;
-    color: rgb(211, 39, 39);
+  font-size: 22px;
+  padding: 20px;
+  color: rgb(211, 39, 39);
 }
 
 .about-illustration {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-illustration img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 1024px) {
-    .about-text {
-        text-align: justify;
-        padding: 10px;
-    }
+  .about-text {
+    text-align: justify;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 768px) {
-    .about-content {
-        grid-template-columns: 1fr;
-        /* background-color: blueviolet; */
-    }
-    .about-text,
-    .about-illustration {
-        padding: 10px;
-    }
+  .about-header h1{
+    font-size: 2rem;
+    color: rgb(49, 49, 49);
+}
+  
+  .about-content {
+    grid-template-columns: 1fr;
+    /* background-color: blueviolet; */
+  }
+  .about-text,
+  .about-illustration {
+    padding: 8px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .about-text p {
-        font-size: 1rem;
-    }
-    .about-text span {
-        font-size: 18px;
-    }
+  .about-text p {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+  }
+  .about-text span {
+    font-size: 0.9rem;
+  }
 }

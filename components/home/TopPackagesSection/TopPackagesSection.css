@@ -61,3 +61,8 @@
   margin: 10px;
 }
   
+@media screen and (max-width: 480px) {
+  .package-card p {
+    font-size: 0.8rem;
+  }
+}
