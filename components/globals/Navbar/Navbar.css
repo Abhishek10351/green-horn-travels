@@ -1,14 +1,14 @@
 /* Basic styling for the Navbar */
 nav {
   position: fixed;
-  width: 75rem;
+  width: auto;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 12.5vh;
   margin-top: 0rem;
-  margin-left: 4rem;
+  margin-left: 1rem;
   border-radius: 15px;
   transition: background-color 0.3s ease;
 }
@@ -110,9 +110,16 @@ nav ul li:hover > ul {
   content: "\f0c9";
 }
 
-@media all and (max-width: 880px) {
+@media screen and (max-width: 856px) {
+  nav ul{
+    width: 80%;
+  }
+}
+
+
+@media all and (max-width: 556px) {
   nav {
-    display: none;
+    position:static;
     height: 10vh;
   }
 
@@ -125,7 +132,7 @@ nav ul li:hover > ul {
     background-color: rgba(0, 0, 0, 0);
   }
 
-  #drop {
+  #drop ul {
     display: none;
     opacity: 0;
   }
