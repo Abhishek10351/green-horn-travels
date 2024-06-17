@@ -1,3 +1,31 @@
 @import "../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
 
 @import "../../../node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
+
+.glide h2 {
+  font-size: 2rem;
+  color: rgb(41, 40, 40);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 480px) {
+  .glide {
+    margin-top: 1rem;
+  }
+
+  .glide h2 {
+    font-size: 1.6rem;
+    color: rgb(41, 40, 40);
+    text-align: center;
+
+    margin-bottom: 2rem;
+    padding: auto 1rem;
+  }
+  .glide .glide__track .glide__slides .glide_slide {
+    height: auto;
+  }
+  .glide img {
+    width: 100%;
+    height: 27rem;
+  }
+}
