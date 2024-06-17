@@ -62,7 +62,6 @@
   text-align: center;
 }
 .social-icons a {
-  margin: 1rem 0.7rem;
   font-size: 1.9rem;
   color: #e1e1e1;
 }
@@ -106,6 +105,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width:100%;
 }
 .footer a {
   color: #fff;
