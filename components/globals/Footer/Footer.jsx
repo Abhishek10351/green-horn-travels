@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="footer-logo">
                 <Image
                     className="footer-logo-img"
-                    src="/public/assets/logo/white-bg.png"
+                    src="/assets/logo/white-bg.png"
                     alt=""
                     width="100"
                     height="100"

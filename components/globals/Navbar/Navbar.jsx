@@ -6,13 +6,13 @@ import logo from "../../../public/assets/logo/logo1.png";
 
 const Navbar = () => {
     const handleScroll = () => {
-        const navbar = document.querySelector('nav');
+        const navbar = document.querySelector("nav");
         if (window.scrollY > 50) {
-          navbar.classList.add('scrolled');
+            navbar.classList.add("scrolled");
         } else {
-          navbar.classList.remove('scrolled');
+            navbar.classList.remove("scrolled");
         }
-      };
+    };
     // useEffect(() => {
     //   window.addEventListener('scroll', handleScroll);
     // }, []);
@@ -21,7 +21,12 @@ const Navbar = () => {
         <nav>
             <div className="logo">
                 <Link href="/">
-                    <Image src={logo} alt="Logo" />
+                    <Image
+                        src="/assets/logo/logo1.png"
+                        alt="Logo"
+                        width={300}
+                        height={300}
+                    />
                 </Link>
             </div>
             <input type="checkbox" id="check" />
