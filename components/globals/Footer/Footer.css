@@ -53,7 +53,6 @@
 }
 .footer-social {
   grid-area: social;
-  display: flex;
 }
 .footer-links a:hover {
   color: #f7a816;
