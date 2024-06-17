@@ -6,7 +6,7 @@ const topPackages = [
     title: "Tawang",
     description:
       "Witness the timeless traditions and spiritual grandeur of Tawang.",
-    image: "Tawang.jpg",
+    image: "tawang.jpg",
   },
   {
     title: "Kaziranga",
