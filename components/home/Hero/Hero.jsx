@@ -1,22 +1,25 @@
 import "./Hero.css";
-
+import TypingAnimation from "../Typing Animation/TypingAnimation";
 export default function Hero() {
-    return (
-        <section className="hero-container">
-            <video
-                src="/assets/media/introvideo.mp4"
-                autoPlay
-                loop
-                muted
-                className="hero-video"
-            />
-            <div className="hero-content">
-                <h1>ADVENTURE AWAITS</h1>
-                <p>What are you waiting for?</p>
-                <button className="hero-btn" type="button">
-                    Explore
-                </button>
-            </div>
-        </section>
-    );
+  return (
+    <section className="hero-container">
+      <video
+        src="/assets/media/introvideo.mp4"
+        autoPlay
+        loop
+        muted
+        className="hero-video"
+      />
+      <div className="hero-content">
+        <h1>ADVENTURE AWAITS</h1>
+        <p>What are you waiting for?</p>
+        <button className="hero-btn" type="button">
+          Explore
+        </button>
+      </div>
+      <div className="animation">
+        <TypingAnimation />
+      </div>
+    </section>
+  );
 }

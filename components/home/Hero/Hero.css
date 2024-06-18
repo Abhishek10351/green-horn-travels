@@ -6,6 +6,7 @@
   height: 100vh;
   overflow: hidden; /* Ensures no scroll bars */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(252, 251, 251);
@@ -26,6 +27,7 @@
 .hero-content {
   position: relative;
   z-index: 1;
+  margin-top: 10rem;
 }
 
 .hero-container h1 {
@@ -39,7 +41,7 @@
 }
 
 .hero-btn {
-  margin-top: 20px;
+  margin-top: 1.8rem;
   padding: 12px 22px;
   font-size: 1.2rem;
   color: #fff;
@@ -52,6 +54,11 @@
 
 .hero-btn:hover {
   background-color: #ff5c11;
+}
+/* animation */
+.animation {
+  position: relative;
+  margin-top: 4rem;
 }
 
 /* Optional search form styles */
@@ -79,6 +86,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    margin-top: 0rem;
+  }
   .hero-container h1 {
     font-size: 2.5rem;
   }
