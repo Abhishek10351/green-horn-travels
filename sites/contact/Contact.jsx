@@ -6,10 +6,10 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <> <Navbar />
-      <div className="contact-container">
+      <main className="contact-container">
         <SocialMedia />
         <ContactImage />
-      </div>
+      </main>
       <Footer />
     </>
   );
