@@ -29,11 +29,10 @@
   grid-area: image;
 }
 
-button {
+.navigation {
   font-family: "Inter", sans-serif;
   font-size: 1.28rem;
   padding: 0.75rem 1.5rem;
-  margin-left: 35rem;
   color: #fff;
   background-color: #51b102;
   border: none;
@@ -45,7 +44,7 @@ button {
   align-self: center;
 }
 
-button:hover {
+.navigation:hover {
   background-color: #68e601;
 }
 /* for tablet screens */
@@ -75,14 +74,13 @@ button:hover {
     order: 2;
   }
 
-  button {
+  .navigation {
     font-size: 1.1rem;
     padding: 0.7rem 1.5rem;
-    margin-left: 70%;
     align-self: center;
     order: 3;
   }
-  button:hover {
+  .navigation:hover {
     background-color: #68e601;
     box-shadow: 0 9px 14px rgba(0, 0, 0, 0.24);
   }
@@ -91,7 +89,7 @@ button:hover {
 @media screen and (max-width: 480px) {
   .intro-carrentals {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 6rem 1rem;
     gap: 1rem;
   }
@@ -99,7 +97,7 @@ button:hover {
   .intro-carrentals p {
     padding: 2rem 0.4rem;
     font-size: 0.9rem;
-    order: 1;
+    order: 2;
   }
 
   .intro-carrentals-image {
@@ -109,15 +107,16 @@ button:hover {
     order: 1;
   }
 
-  button {
+  .navigation {
     font-size: 1.1rem;
     padding: 0.7rem 1.8rem;
     margin-left: 0;
     order: 3;
+    grid-area: button;
     align-self: center;
     border-radius: 10rem;
   }
-  button:hover {
+  .navigation:hover {
     background-color: #6ce905;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.411);
   }
