@@ -12,7 +12,7 @@ nav {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   transition: background-color 0.3s ease;
-  background-color: rgba(64, 158, 127, 0);
+  background-color: rgba(64, 158, 127, 0) !important;
 }
 
 nav.scrolled {

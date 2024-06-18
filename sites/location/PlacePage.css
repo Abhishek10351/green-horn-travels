@@ -5,6 +5,9 @@
     background-size: cover; /* Adjust background size as needed */
     height: auto; /* Set element height */
 }
+nav{
+    background-color: rgb(14, 13, 13) !important;
+}
 
 @media screen and (max-width: 480px) {
     .place-container {
