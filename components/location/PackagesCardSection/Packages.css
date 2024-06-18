@@ -123,3 +123,15 @@
         font-size: 16px;
     }
 }
+
+
+@media screen and (max-width: 576px) {
+    .ag-packages_item {
+        flex-basis: 100%;
+        margin: 0 0 30px;
+    }
+    .ag-packages-item_title {
+        font-size: 24px;
+    }
+    
+}

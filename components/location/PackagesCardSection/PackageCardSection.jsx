@@ -24,12 +24,10 @@ const packages = [
 export default function PackagesSection() {
     return (
         <section className="package-container">
-            <div className="ag-format-container">
-                <div className="ag-packages_box">
-                    {packages.map((course, index) => (
-                        <PackagesCard key={index} {...course} />
-                    ))}
-                </div>
+            <div className="ag-packages_box">
+                {packages.map((course, index) => (
+                    <PackagesCard key={index} {...course} />
+                ))}
             </div>
         </section>
     );
