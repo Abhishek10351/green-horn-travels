@@ -4,12 +4,8 @@ import Footer from "../../components/globals/Footer/Footer";
 import "./location.css";
 export default function Location() {
   return (
-    <>
-      <Navbar />
       <div>
         <PackagesSection />
       </div>
-      <Footer />
-    </>
   );
 }
