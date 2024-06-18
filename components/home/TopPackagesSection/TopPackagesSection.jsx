@@ -23,7 +23,7 @@ const topPackages = [
 
 function TopPackagesSection() {
   return (
-    <section className="top-packages-section">
+    <section className="top-packages-section" id="top-packages-section">
       <h2>Top Travel Packages</h2>
       <div className="packages-container">
         {topPackages.map((pkg, index) => (
