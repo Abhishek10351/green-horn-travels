@@ -6,6 +6,9 @@
   height: auto;
   padding: 4rem 3rem;
 }
+nav{
+  background-color: rgb(17, 17, 17) !important;
+}
 
 /* for tablet screens */
 
