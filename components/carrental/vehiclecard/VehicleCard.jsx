@@ -1,18 +1,10 @@
-"use static";
 import Image from "next/image";
-import { useInView } from "react-intersection-observer";
 import "./VehicleCard.css";
 
 export default function VehicleCard({ ...props }) {
-  // const { ref, inView } = useInView();
-
-  function handleBookNow(vehicleName) {
-    alert(`Book Now: ${vehicleName}`);
-  }
-  // <section ref={ref} className={`vehicle-card ${inView ? 'fade-in' : ''}`}>
 
   return (
-    <section className={`vehicle-card`}>
+    <div className={`vehicle-card`}>
       <Image
         src={`/assets/cars/${props.img}`}
         alt={props.name}
@@ -25,7 +17,6 @@ export default function VehicleCard({ ...props }) {
       <a href="https://wa.me/7002822793" target="_blank">
         <button className="vehicle-button">Book Now</button>
       </a>
-    </section>
+    </div>
   );
-  // <button onClick={() => handleBookNow(props.name)}>Book Now</button>;
 }
