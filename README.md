@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a website for a travel agency. The website is designed to be responsive and user-friendly. The website includes a home page, a services page and a contact page.
+This is a project website for a travel agency. The website is designed to be responsive and user-friendly. The website includes a home page, a services page and a contact page.
 
 ## Technologies Used
 
