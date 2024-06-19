@@ -1,5 +1,5 @@
 .ag-packages_item {
-    flex-basis: calc(33.33333% - 30px);
+    flex-basis: 400px;
     margin: 0 15px 30px;
     overflow: hidden;
     border-radius: 28px;
@@ -122,4 +122,16 @@
     .ag-packages-item_info {
         font-size: 16px;
     }
+}
+
+
+@media screen and (max-width: 576px) {
+    .ag-packages_item {
+        flex-basis: 100%;
+        margin: 0 0 30px;
+    }
+    .ag-packages-item_title {
+        font-size: 24px;
+    }
+    
 }
