@@ -65,7 +65,7 @@
   color: #e1e1e1;
 }
 .fa-facebook:hover {
-  color: #3b5998;
+  color: #2d6cf5;
 }
 .fa-instagram:hover {
   color: #ff0069;
@@ -74,10 +74,10 @@
   color: #25d366;
 }
 .fa-phone:hover {
-  color: #25d366;
+  color: #d9e900;
 }
 .fa-envelope:hover {
-  color: #25d366;
+  color: rgb(0, 215, 223);
 }
 .footer-address {
   grid-area: address;
@@ -104,7 +104,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width:100%;
+  width: 100%;
 }
 .footer a {
   color: #fff;
@@ -347,7 +347,7 @@
   }
   .footer-icons {
     width: 90vw;
-    margin-right: 5rem;
+    margin-right: 0rem;
   }
   .footer-map {
     display: flex;
