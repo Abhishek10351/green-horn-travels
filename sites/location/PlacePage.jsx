@@ -17,12 +17,11 @@ export default function PlacePage({ location }) {
 
   return (
     <>
-      {" "}
       <Navbar />
-      <div className="place-container" style={bg_style}>
+      <main className="place-container" style={bg_style}>
         <PlaceIntro {...placeData} />
         <PlacesCardSection places={Cards} />
-      </div>
+      </main>
       <Footer />
     </>
   );
