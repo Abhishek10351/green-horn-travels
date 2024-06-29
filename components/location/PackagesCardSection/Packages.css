@@ -49,6 +49,7 @@
 }
 
 .ag-packages-item_title {
+    text-align: center;
     min-height: 87px;
     margin: 0 0 25px;
     overflow: hidden;
@@ -61,10 +62,10 @@
 
 .package-card-button {
     position: relative;
-    margin: 0px auto;
-    margin-top: 9rem;
+    margin: 0 8rem;
+    margin-top: 9.5rem;
     z-index: 3;
-    background-color: #3ad8de;
+    background-color: #96C9F4;
     border: none;
     padding: 10px 20px;
     color: white;
@@ -97,13 +98,31 @@
 .ag-packages-item_link:hover .ag-packages-item_info {
     opacity: 1;
 }
-
+@media screen and (max-width:1024px){
+    .ag-packages_item {
+        flex-basis: calc(50% - 30px);
+    }
+    .ag-packages-item_title {
+        font-size: 24px;
+    }
+    .package-card-button{
+        margin: 0 5rem;
+        margin-top: 9rem;
+    }
+}
 @media only screen and (max-width: 979px) {
     .ag-packages_item {
         flex-basis: calc(50% - 30px);
     }
     .ag-packages-item_title {
         font-size: 24px;
+    }
+}
+@media only screen and (max-width: 834px){
+
+    .package-card-button{
+        margin: 0 6rem;
+        margin-top: 9rem;
     }
 }
 
@@ -122,6 +141,10 @@
     .ag-packages-item_info {
         font-size: 16px;
     }
+    .package-card-button{
+        margin: 0 6rem;
+        margin-top: 10rem;
+    }
 }
 
 
@@ -131,7 +154,33 @@
         margin: 0 0 30px;
     }
     .ag-packages-item_title {
-        font-size: 24px;
+        font-size: 26px;
     }
-    
+    .package-card-button{
+        margin: 0 6rem;
+        margin-top: 10rem;
+    }
+    @media screen and (max-width: 480px){
+        .ag-packages_item {
+            flex-basis: 100%;
+            margin: 0 40px 30px;
+        }
+        .ag-packages-item_title {
+            font-size: 26px;
+        }
+        .package-card-button{
+            margin: 0 4rem;
+            margin-top: 10rem;
+        }
+    } 
+}
+@media screen and (max-width: 350px){
+    .ag-packages_item {
+        flex-basis: 100%;
+        margin: 0 10px 30px;
+    }
+    .package-card-button{
+        margin: 0 3.5rem;
+        margin-top: 10rem;
+    }
 }
