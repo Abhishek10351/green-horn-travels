@@ -1,40 +1,55 @@
 .office-address {
-  display: flex;
-  flex-direction: column;
-  margin: 10rem 21rem;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  width: 40rem;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 10rem 21rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .office-address {
-  p,
-  address {
-    font-size: 20px;
-  }
-  h2 {
-    margin-top: 20px;
-  }
+    p,
+    address {
+        font-size: 18px;
+        margin-top: 17px;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .office-address {
+        margin: 6rem 3rem;
+        width: auto;
+        padding: 0.1rem;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37);
+    }
 }
 
-/* Media query for screens with a max width of 480px (Mobile) */
+/* Media query for screens with a max width of 1024px (Tablet) */
 @media screen and (max-width: 480px) {
-  .office-address {
-    margin: 6rem 0rem; 
-    width: auto; 
-    padding: 0.2rem; 
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37); 
-  }
+    .office-address {
+        margin: 6rem 0rem;
+        width: auto;
+        padding: 0.2rem;
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37);
+    }
 
-  .office-address p,
-  .office-address address {
-    font-size: 1rem; 
-    padding: 1rem 0rem;
-    line-height: 1.8rem;
-  }
+    .office-address p,
+    .office-address address {
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        line-height: 1.8rem;
+    }
 
-  .office-address h2 {
-    margin-top: 20px; 
-    font-size: 1.3rem; 
-  }
+    .office-address h2 {
+        margin-top: 20px;
+        font-size: 1.3rem;
+    }
 }
