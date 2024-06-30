@@ -5,17 +5,16 @@ import VehicleCardsSection from "../../components/carrental/vehiclecard/VehicleC
 import FloatingPanel from "../../components/carrental/floatingpanel/FloatingPanel";
 import "./Carrentals.css";
 export default function Carrentals() {
-  return (
-    <>
-      {" "}
-      <Navbar />
-      <div className="carrental-container">
-        {/* <h1>Car Rentals</h1> */}
-        <IntroSection />
-        <VehicleCardsSection />
-        <FloatingPanel />
-      </div>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <div className="carrental-container">
+                {/* <h1>Car Rentals</h1> */}
+                <IntroSection />
+                <VehicleCardsSection />
+                <FloatingPanel />
+            </div>
+            <Footer />
+        </>
+    );
 }

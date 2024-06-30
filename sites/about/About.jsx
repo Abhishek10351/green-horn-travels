@@ -7,17 +7,17 @@ import Adventure from "../../components/about/adventure/Adventure";
 import Navbar from "../../components/globals/Navbar/Navbar";
 import Footer from "../../components/globals/Footer/Footer";
 export default function About() {
-  return (
-    <>
-      <Navbar />
-      <main className="container">
-        <Welcome />
-        <DiscoverySection />
-        <Team />
-        <Adventure />
-        <Address />
-      </main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <main className="container">
+                <Welcome />
+                <DiscoverySection />
+                <Team />
+                <Adventure />
+                <Address />
+            </main>
+            <Footer />
+        </>
+    );
 }

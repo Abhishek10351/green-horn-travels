@@ -1,4 +1,5 @@
 "use client";
+import "./home.css";
 import { useEffect } from "react";
 import Navbar from "../../components/globals/Navbar/Navbar";
 import Hero from "../../components/home/Hero/Hero";
@@ -30,7 +31,7 @@ export function Home() {
 
     return (
         <>
-            <Navbar />
+            <Navbar className="home-nav" />
             <Hero />
             <AboutUs />
             <TopPackagesSection />
