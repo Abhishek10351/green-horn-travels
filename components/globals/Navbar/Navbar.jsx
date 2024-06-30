@@ -1,11 +1,8 @@
-"use client";
-import { useEffect } from "react";
 import "./Navbar.css";
 import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
-
     return (
         <nav>
             <div className="logo">

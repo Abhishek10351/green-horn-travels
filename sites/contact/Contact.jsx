@@ -4,13 +4,14 @@ import Navbar from "../../components/globals/Navbar/Navbar";
 import Footer from "../../components/globals/Footer/Footer";
 import "./Contact.css";
 export default function Contact() {
-  return (
-    <> <Navbar />
-      <main className="contact-container">
-        <SocialMedia />
-        <ContactImage />
-      </main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Navbar />
+            <main className="contact-container">
+                <SocialMedia />
+                <ContactImage />
+            </main>
+            <Footer />
+        </>
+    );
 }
