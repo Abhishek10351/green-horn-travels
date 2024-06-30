@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import "./Navbar.css";
 import Image from "next/image";
 import Link from "next/link";
-// import logo from "../../../public/assets/logo/logo1.png";
 
 const Navbar = () => {
 
