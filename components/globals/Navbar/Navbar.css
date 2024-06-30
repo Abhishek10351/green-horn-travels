@@ -1,246 +1,216 @@
 /* Basic styling for the Navbar */
 nav {
-  position: fixed;
-  width: 85%;
-  z-index: 10;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 12.5vh;
-  margin-top: 0rem;
-  margin-left: 6rem;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  transition: background-color 0.3s ease;
-  background-color: rgba(64, 158, 127, 0) !important;
+    position: fixed;
+    width: 85%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12.5vh;
+    margin-top: 0rem;
+    margin-left: 6rem;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
 }
 
 nav.scrolled {
-  background-color: rgba(37, 37, 37, 0.959); /* Change to your desired color */
+    background-color: rgba(37, 37, 37, 0.959);
+    /* Change to your desired color */
 }
 
 .fa-bars,
 .fa-times {
-  color: #fff;
+    color: #fff;
 }
 
 nav ul {
-  display: flex;
-  width: 60%;
-  justify-content: space-around;
-  list-style-type: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 nav ul li {
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  list-style: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    list-style: none;
 }
 
 nav ul li a {
-  display: block;
-  text-decoration: none;
-  padding: 0.5rem;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 1.05rem;
-  font-weight: 500;
-  letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
 }
 
 nav ul li a:hover {
-  background-color: #67ee8d;
-  color: #0f0f0f;
-  transition: 0.4s ease;
+    background-color: #67ee8d;
+    color: #0f0f0f;
+    transition: 0.4s ease;
 }
 
 nav ul ul {
-  position: absolute;
-  z-index: 100;
-  padding: 0.5rem;
-  display: none;
-  width: 120%;
-  background-color: #222020ef;
-  border-radius: 2px;
+    position: absolute;
+    z-index: 100;
+    padding: 0.5rem;
+    display: none;
+    width: 120%;
+    background-color: #222020ef;
+    border-radius: 2px;
 }
 
 nav ul ul li {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 nav ul ul li a {
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 0.9rem;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
 }
 
 nav ul li:hover > ul {
-  display: block;
+    display: block;
 }
 
 #homeli {
-  color: #e3d792;
-  background-color: rgba(0, 0, 0, 0);
+    color: #e3d792;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .logo {
-  width: 5rem;
-  height: 4rem;
-  margin-left: 3rem;
-  align-items: center;
+    width: 5rem;
+    height: 4rem;
+    margin-left: 3rem;
+    align-items: center;
 }
 
 .logo img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .checkbtn {
-  font-size: 30px;
-  color: #92e3a9;
-  cursor: pointer;
-  display: none;
+    font-size: 30px;
+    color: #92e3a9;
+    cursor: pointer;
+    display: none;
 }
 
 #check {
-  display: none;
+    display: none;
 }
 
 .fa-bars::before {
-  content: "\f0c9";
+    content: "\f0c9";
 }
 
-@media screen and (max-width: 1024px) {
-  nav {
-    width: 100%;
-    margin: auto;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 15px;
-    height: 6.5vh;
-  }
-  nav ul {
-    width: 80%;
-  }
-  nav ul li a {
-    padding: 0.3rem;
-  }
+@media screen and (max-width: 1224px) {
+    nav {
+        width: 100%;
+        margin: auto;
+    }
+    nav ul {
+        width: 80%;
+    }
+    nav ul li a {
+        padding: 0.3rem;
+    }
 }
 
 @media screen and (max-width: 856px) {
-  nav {
-    margin: auto 0rem;
-    width: 100%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 7.5vh;
-  }
-  nav ul {
-    width: 80%;
-  }
-  nav ul li a {
-    padding: 0.5rem;
-  }
-}
-@media screen and (max-width: 820px) {
-  nav {
-    margin: auto 0rem;
-    width: 100%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 6.5vh;
-  }
-  nav ul {
-    width: 80%;
-  }
-  nav ul li a {
-    padding: 0.5rem;
-  }
+    nav {
+        margin: auto 0rem;
+        border-radius: 0 0 15px 15px;
+    }
+    nav ul li a {
+        padding: 0.5rem;
+    }
 }
 
 @media all and (max-width: 556px) {
-  nav {
-    position: fixed;
-    height: 10vh;
-    margin: auto auto;
-    width: 100%;
-    background-color: rgba(64, 158, 127, 0.014);
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 15px;
-  }
-  .logo {
-    width: 5rem; /* Adjust width as needed */
-    height: 4rem; /* Adjust height as needed */
-    margin-left: 1rem;
-    align-items: center;
-  }
-  .logo img {
-    padding-top: auto;
-    margin-top: 0.2rem;
-    width: 85%;
-    height: auto;
-  }
-  .checkbtn {
-    display: block;
-    padding-right: 20px;
-  }
+    nav {
+        position: fixed;
+        margin: auto auto;
+        background-color: rgba(64, 158, 127, 0.014);
+        border-radius: 0;
+    }
+    .logo {
+        width: 5rem; /* Adjust width as needed */
+        height: 4rem; /* Adjust height as needed */
+        margin-left: 1rem;
+        align-items: center;
+    }
+    .logo img {
+        padding-top: auto;
+        margin-top: 0.2rem;
+        width: 85%;
+        height: auto;
+    }
+    .checkbtn {
+        display: block;
+        padding-right: 20px;
+    }
 
-  #homeli {
-    background-color: rgba(0, 0, 0, 0);
-  }
+    #homeli {
+        background-color: rgba(0, 0, 0, 0);
+    }
 
-  #drop ul {
-    display: none;
-    opacity: 0;
-  }
+    #drop ul {
+        display: none;
+        opacity: 0;
+    }
 
-  .list {
-    display: block;
-    width: 100%;
-    position: absolute;
-    z-index: 120;
-    background: rgb(27, 27, 27);
-    top: 10vh;
-    height: 90vh;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
+    .list {
+        display: block;
+        width: 100%;
+        position: absolute;
+        z-index: 120;
+        background: rgb(27, 27, 27);
+        top: 10vh;
+        height: 90vh;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
 
-  .list li {
-    width: 100%;
-    height: 2rem;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #fff;
-    margin-top: 20px;
-  }
+    .list li {
+        width: 100%;
+        height: 2rem;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #fff;
+        margin-top: 20px;
+    }
 
-  .list li a:hover {
-    background-color: rgba(0, 0, 0, 0);
-    transition: 0.2s ease;
-    color: #48ce6e;
-  }
+    .list li a:hover {
+        background-color: rgba(0, 0, 0, 0);
+        transition: 0.2s ease;
+        color: #48ce6e;
+    }
 
-  .list li a {
-    font-size: 1rem;
-  }
+    .list li a {
+        font-size: 1rem;
+    }
 
-  nav ul li {
-    display: block;
-  }
+    nav ul li {
+        display: block;
+    }
 
-  #check:checked ~ ul {
-    left: 0;
-    transition: all 0.5s ease-in;
-  }
+    #check:checked ~ ul {
+        left: 0;
+        transition: all 0.5s ease-in;
+    }
 
-  #check:checked ~ .checkbtn i::before {
-    content: "\f00d";
-  }
+    #check:checked ~ .checkbtn i::before {
+        content: "\f00d";
+    }
 }
