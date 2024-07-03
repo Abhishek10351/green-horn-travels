@@ -23,45 +23,45 @@ const Navbar = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about" id="d">
+                    <Link href="/about-us" id="d">
                         About Us
                     </Link>
                 </li>
                 <li id="drop">
-                    <Link href="/locations" id="d">
+                    <Link href="/tour-packages" id="d">
                         Packages
                     </Link>
                     <ul>
                         <li>
-                            <Link href="/location/Assam" id="d">
+                            <Link href="/tour-packages/Assam" id="d">
                                 Assam
                             </Link>
                         </li>
                         <li>
-                            <Link href="/location/Meghalaya" id="d">
+                            <Link href="/tour-packages/Meghalaya" id="d">
                                 Meghalaya
                             </Link>
                         </li>
                         <li>
-                            <Link href="/location/Arunachal Pradesh" id="d">
+                            <Link href="/tour-packages/Arunachal Pradesh" id="d">
                                 Arunachal Pradesh
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="/locations" id="d">
+                            <Link href="/tour-packages" id="d">
                                 View all..
                             </Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <Link href="/rentals" id="d">
+                    <Link href="/car-rentals" id="d">
                         Car Rentals
                     </Link>
                 </li>
                 <li>
-                    <Link href="/contact" id="d">
+                    <Link href="/contact-us" id="d">
                         Contact Us
                     </Link>
                 </li>

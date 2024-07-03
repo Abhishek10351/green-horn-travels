@@ -21,16 +21,16 @@ export default function Footer() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/about">About us</a>
+            <a href="/about-us">About us</a>
           </li>
           <li>
-            <a href="/locations">Packages</a>
+            <a href="/tour-packages">Packages</a>
           </li>
           <li>
-            <a href="/rentals">Car Rentals</a>
+            <a href="/car-rentals">Car Rentals</a>
           </li>
           <li>
-            <a href="/contact">Contact Us</a>
+            <a href="/contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
