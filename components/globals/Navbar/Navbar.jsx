@@ -33,17 +33,17 @@ const Navbar = () => {
                     </Link>
                     <ul>
                         <li>
-                            <Link href="/location/Assam" id="d">
+                            <Link href="/tour-packages/Assam" id="d">
                                 Assam
                             </Link>
                         </li>
                         <li>
-                            <Link href="/location/Meghalaya" id="d">
+                            <Link href="/tour-packages/Meghalaya" id="d">
                                 Meghalaya
                             </Link>
                         </li>
                         <li>
-                            <Link href="/location/Arunachal Pradesh" id="d">
+                            <Link href="/tour-packages/Arunachal Pradesh" id="d">
                                 Arunachal Pradesh
                             </Link>
                         </li>
