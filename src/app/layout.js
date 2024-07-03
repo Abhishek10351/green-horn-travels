@@ -4,8 +4,8 @@ import "./app.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Green Horns Travels",
-  description: "Green Horns Travels ,Assam, India",
+  title: "Green Horn Travels - Your One-Stop Travel Agency in Guwahati",
+  description: "Experience the best travel services in Guwahati with Green Horn Travels. Get customized tour packages, car rentals, and hotel reservations.",
 };
 
 export default function RootLayout({ children }) {
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href={inter.url} />
+        <meta name="google-site-verification" content="iozI_H9hDHLq0fSbDhN9X1QMHR6Nae9ypfpLNB1B79o" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
