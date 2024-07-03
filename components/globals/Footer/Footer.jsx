@@ -30,7 +30,7 @@ export default function Footer() {
             <a href="/car-rentals">Car Rentals</a>
           </li>
           <li>
-            <a href="/contact">Contact Us</a>
+            <a href="/contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
