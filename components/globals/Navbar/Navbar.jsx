@@ -28,7 +28,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li id="drop">
-                    <Link href="/locations" id="d">
+                    <Link href="/tour-packages" id="d">
                         Packages
                     </Link>
                     <ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         </li>
 
                         <li>
-                            <Link href="/locations" id="d">
+                            <Link href="/tour-packages" id="d">
                                 View all..
                             </Link>
                         </li>

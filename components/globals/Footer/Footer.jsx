@@ -24,7 +24,7 @@ export default function Footer() {
             <a href="/about-us">About us</a>
           </li>
           <li>
-            <a href="/locations">Packages</a>
+            <a href="/tour-packages">Packages</a>
           </li>
           <li>
             <a href="/car-rentals">Car Rentals</a>
