@@ -56,7 +56,7 @@ const Navbar = () => {
                     </ul>
                 </li>
                 <li>
-                    <Link href="/rentals" id="d">
+                    <Link href="/car-rentals" id="d">
                         Car Rentals
                     </Link>
                 </li>
