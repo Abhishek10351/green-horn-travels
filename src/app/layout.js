@@ -12,8 +12,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href={inter.url} />
         <meta name="google-site-verification" content="iozI_H9hDHLq0fSbDhN9X1QMHR6Nae9ypfpLNB1B79o" />
