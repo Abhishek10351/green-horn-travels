@@ -1,10 +1,10 @@
 .office-address {
     display: flex;
     flex-direction: column;
-    margin: 10rem 21rem;
+    margin: 5rem auto;
     margin-bottom: 20px;
     border-radius: 10px;
-    width: auto;
+    width: 600px;
     height: auto;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -25,18 +25,18 @@
 }
 @media screen and (max-width: 1024px) {
     .office-address {
-        margin: 6rem 3rem;
-        width: auto;
+        margin: 4rem auto;
+        width: 500px;
         padding: 0.1rem;
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37);
     }
 }
 
 /* Media query for screens with a max width of 1024px (Tablet) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     .office-address {
-        margin: 6rem 0rem;
-        width: auto;
+        margin: 3rem auto;
+        width: 90%;
         padding: 0.2rem;
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37);
     }

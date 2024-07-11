@@ -4,12 +4,12 @@
   font-size: 1.4rem;
   color: #080808;
   line-height: 1.8;
-  margin: 4rem 10rem;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
+  width: 95%;
   padding: 1rem 0.9rem;
-  margin: 8rem 1.5rem;
+  margin: 2rem auto;
 }
 .team img {
   height: auto;
@@ -21,8 +21,7 @@
 
 @media screen and (max-width: 1024px) {
   .team {
-    flex-direction: row-reverse; 
-    margin: 4rem 2rem; 
+    margin: 2rem auto; 
     padding: 3rem 2rem;
   }
 
@@ -44,15 +43,13 @@
 /* Media query for screens with a max width of 480px (Mobile) */
 @media screen and (max-width: 480px) {
   .team {
-    display: flex;
     flex-direction: column-reverse;
-    margin: 1.1rem 0rem;
+    margin: 1.1rem auto;
   }
   .team p {
     font-size: 1.1rem;
     margin: auto;
     line-height: 1.5;
-    text-align: justify;
   }
   .team img {
     height: auto;
