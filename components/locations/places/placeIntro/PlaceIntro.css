@@ -1,5 +1,12 @@
+.place-info{
+    margin: 36px auto;
+}
+
+.place-info h1{
+    text-align: center;
+}
+
 .intro-place {
-    /* border: 1px solid red; */
     padding: 2.5rem 1.5rem;
 }
 .intro-place p {
