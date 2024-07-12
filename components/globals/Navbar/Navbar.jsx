@@ -23,47 +23,35 @@ const Navbar = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about-us" id="d">
-                        About Us
-                    </Link>
+                    <Link href="/about-us">About Us</Link>
                 </li>
                 <li id="drop">
-                    <Link href="/tour-packages" id="d">
-                        Packages
-                    </Link>
+                    <Link href="/tour-packages">Packages</Link>
                     <ul>
                         <li>
-                            <Link href="/tour-packages/Assam" id="d">
-                                Assam
-                            </Link>
+                            <Link href="/tour-packages/Assam">Assam</Link>
                         </li>
                         <li>
-                            <Link href="/tour-packages/Meghalaya" id="d">
+                            <Link href="/tour-packages/Meghalaya">
                                 Meghalaya
                             </Link>
                         </li>
                         <li>
-                            <Link href="/tour-packages/Arunachal Pradesh" id="d">
+                            <Link href="/tour-packages/Arunachal-Pradesh">
                                 Arunachal Pradesh
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="/tour-packages" id="d">
-                                View all..
-                            </Link>
+                            <Link href="/tour-packages">View all..</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <Link href="/car-rentals" id="d">
-                        Car Rentals
-                    </Link>
+                    <Link href="/car-rentals">Car Rentals</Link>
                 </li>
                 <li>
-                    <Link href="/contact-us" id="d">
-                        Contact Us
-                    </Link>
+                    <Link href="/contact-us">Contact Us</Link>
                 </li>
             </ul>
         </nav>
