@@ -30,6 +30,12 @@
         padding: 0.1rem;
         box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.37);
     }
+    .office-address p,
+    .office-address address {
+        font-size: 1.1rem;
+        padding: 0.4rem 0rem;
+        line-height: 1.9rem;
+    }
 }
 
 /* Media query for screens with a max width of 1024px (Tablet) */
@@ -51,5 +57,17 @@
     .office-address h2 {
         margin-top: 20px;
         font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .office-address p,
+    .office-address address {
+        font-size: 0.9rem;
+        padding: 0.4rem 0rem;
+        line-height: 1.5rem;
+    }
+    .office-address h2 {
+        margin-top: 20px;
+        font-size: 1.2rem;
     }
 }
