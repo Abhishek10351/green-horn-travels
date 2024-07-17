@@ -1,7 +1,7 @@
 import "./Packages.css";
 export default function PackagesCard({ title, image, info, overlay }) {
     const image_path = "/assets/package-images/";
-    const package_path = `/tour-packages/${title.toLowerCase()}`;
+    const package_path = `/tour-packages/${title.toLowerCase().replace(/ /g, "-")}`;
     return (
         <div className="ag-packages_item">
             <a href={package_path} className="ag-packages-item_link">
