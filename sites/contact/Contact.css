@@ -14,8 +14,11 @@ nav{
 
 @media screen and (max-width: 1024px) {
   .contact-container {
-    padding: 3rem 3.2rem;
+    padding: 4rem 3.2rem;
     overflow-x: hidden;
+    height: auto;
+    
+    /* margin: 2rem; */
   }
 }
 @media screen and (max-width: 834px) {
