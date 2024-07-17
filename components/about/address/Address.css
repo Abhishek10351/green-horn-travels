@@ -17,12 +17,13 @@
         text-align: center;
         justify-content: center;
     }
-    h2 {
+   
+}
+.office-address  h2 {
         text-align: center;
         margin-top: 20px;
         font-size: 18px;
         font-weight:600;
-    }
 }
 @media screen and (max-width: 1024px) {
     .office-address {
