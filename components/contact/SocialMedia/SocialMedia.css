@@ -133,6 +133,7 @@ address {
     width: auto;
     padding: 3rem 2.5rem;
     margin: 0.2rem;
+    margin-top: 5rem;
     grid-template-rows: auto auto;
     gap: 1.2rem;
   }
