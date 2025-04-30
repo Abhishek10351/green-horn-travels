@@ -100,7 +100,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        LeadSterra
+                        LeadStera
                     </a>
                 </p>
             </div>
